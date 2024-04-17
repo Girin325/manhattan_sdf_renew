@@ -1,0 +1,497 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Loading dataset:   3%|████▎                                                                                                                                                     | 13/465 [00:00<00:03, 123.15it/s]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), Linear(in_features=256, out_features=257, bias=True)]
+GPU ID:  0
+
+Loading dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 465/465 [00:03<00:00, 123.15it/s]
+
+
+Loading dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 465/465 [00:02<00:00, 166.23it/s]
+eta: 0:11:32  epoch: 1  step: 1001  rgb_loss: 0.1178  depth_loss: 0.0965  joint_loss: 0.3339  cross_entropy_loss: 0.8493  eikonal_loss: 0.1822  loss: 0.6739  beta: 0.0413  theta: -0.0005  data: 0.0158  batch: 0.6936  lr: 0.000477  max_mem: 9152
+eta: 0:11:05  epoch: 1  step: 1002  rgb_loss: 0.1342  depth_loss: 0.1034  joint_loss: 0.2800  cross_entropy_loss: 0.8946  eikonal_loss: 0.1313  loss: 0.7120  beta: 0.0413  theta: -0.0007  data: 0.0158  batch: 0.6673  lr: 0.000477  max_mem: 9185
+eta: 0:10:52  epoch: 1  step: 1003  rgb_loss: 0.1283  depth_loss: 0.0882  joint_loss: 0.2012  cross_entropy_loss: 0.8752  eikonal_loss: 0.1365  loss: 0.6778  beta: 0.0413  theta: -0.0009  data: 0.0159  batch: 0.6550  lr: 0.000477  max_mem: 9186
+eta: 0:10:47  epoch: 1  step: 1004  rgb_loss: 0.1355  depth_loss: 0.0797  joint_loss: 0.2849  cross_entropy_loss: 0.8515  eikonal_loss: 0.1565  loss: 0.6708  beta: 0.0413  theta: -0.0011  data: 0.0159  batch: 0.6498  lr: 0.000477  max_mem: 9186
+eta: 0:10:43  epoch: 1  step: 1005  rgb_loss: 0.1321  depth_loss: 0.0827  joint_loss: 0.2978  cross_entropy_loss: 0.8005  eikonal_loss: 0.1457  loss: 0.6446  beta: 0.0413  theta: -0.0012  data: 0.0158  batch: 0.6465  lr: 0.000477  max_mem: 9187
+eta: 0:10:40  epoch: 1  step: 1006  rgb_loss: 0.1359  depth_loss: 0.0786  joint_loss: 0.2941  cross_entropy_loss: 0.8057  eikonal_loss: 0.1370  loss: 0.6458  beta: 0.0413  theta: -0.0014  data: 0.0158  batch: 0.6444  lr: 0.000477  max_mem: 9187
+eta: 0:10:38  epoch: 1  step: 1007  rgb_loss: 0.1401  depth_loss: 0.0862  joint_loss: 0.2895  cross_entropy_loss: 0.8017  eikonal_loss: 0.1289  loss: 0.6546  beta: 0.0413  theta: -0.0016  data: 0.0157  batch: 0.6427  lr: 0.000477  max_mem: 9189
+eta: 0:10:36  epoch: 1  step: 1008  rgb_loss: 0.1426  depth_loss: 0.0907  joint_loss: 0.2935  cross_entropy_loss: 0.7939  eikonal_loss: 0.1209  loss: 0.6570  beta: 0.0413  theta: -0.0018  data: 0.0157  batch: 0.6415  lr: 0.000477  max_mem: 9189
+eta: 0:10:34  epoch: 1  step: 1009  rgb_loss: 0.1397  depth_loss: 0.0878  joint_loss: 0.2846  cross_entropy_loss: 0.7977  eikonal_loss: 0.1218  loss: 0.6528  beta: 0.0413  theta: -0.0020  data: 0.0157  batch: 0.6408  lr: 0.000477  max_mem: 9189
+eta: 0:10:33  epoch: 1  step: 1010  rgb_loss: 0.1415  depth_loss: 0.0876  joint_loss: 0.2830  cross_entropy_loss: 0.8035  eikonal_loss: 0.1150  loss: 0.6565  beta: 0.0413  theta: -0.0021  data: 0.0158  batch: 0.6401  lr: 0.000477  max_mem: 9189
+eta: 0:10:32  epoch: 1  step: 1011  rgb_loss: 0.1444  depth_loss: 0.0876  joint_loss: 0.2769  cross_entropy_loss: 0.8140  eikonal_loss: 0.1102  loss: 0.6639  beta: 0.0413  theta: -0.0023  data: 0.0158  batch: 0.6395  lr: 0.000477  max_mem: 9189
+eta: 0:10:31  epoch: 1  step: 1012  rgb_loss: 0.1427  depth_loss: 0.0853  joint_loss: 0.2606  cross_entropy_loss: 0.8181  eikonal_loss: 0.1094  loss: 0.6611  beta: 0.0413  theta: -0.0025  data: 0.0158  batch: 0.6392  lr: 0.000477  max_mem: 9189
+eta: 0:10:30  epoch: 1  step: 1013  rgb_loss: 0.1399  depth_loss: 0.0869  joint_loss: 0.2666  cross_entropy_loss: 0.8195  eikonal_loss: 0.1062  loss: 0.6604  beta: 0.0413  theta: -0.0026  data: 0.0157  batch: 0.6388  lr: 0.000477  max_mem: 9190
+eta: 0:10:29  epoch: 1  step: 1014  rgb_loss: 0.1410  depth_loss: 0.0879  joint_loss: 0.2624  cross_entropy_loss: 0.8074  eikonal_loss: 0.1073  loss: 0.6564  beta: 0.0413  theta: -0.0028  data: 0.0157  batch: 0.6384  lr: 0.000477  max_mem: 9190
+eta: 0:10:28  epoch: 1  step: 1015  rgb_loss: 0.1403  depth_loss: 0.0861  joint_loss: 0.2497  cross_entropy_loss: 0.8112  eikonal_loss: 0.1060  loss: 0.6551  beta: 0.0413  theta: -0.0030  data: 0.0157  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:10:27  epoch: 1  step: 1016  rgb_loss: 0.1427  depth_loss: 0.0842  joint_loss: 0.2456  cross_entropy_loss: 0.8081  eikonal_loss: 0.1029  loss: 0.6535  beta: 0.0413  theta: -0.0031  data: 0.0157  batch: 0.6378  lr: 0.000477  max_mem: 9190
+eta: 0:10:26  epoch: 1  step: 1017  rgb_loss: 0.1425  depth_loss: 0.0832  joint_loss: 0.2429  cross_entropy_loss: 0.8109  eikonal_loss: 0.1016  loss: 0.6535  beta: 0.0412  theta: -0.0033  data: 0.0157  batch: 0.6376  lr: 0.000477  max_mem: 9190
+eta: 0:10:26  epoch: 1  step: 1018  rgb_loss: 0.1476  depth_loss: 0.0835  joint_loss: 0.2432  cross_entropy_loss: 0.8113  eikonal_loss: 0.0986  loss: 0.6588  beta: 0.0412  theta: -0.0035  data: 0.0158  batch: 0.6376  lr: 0.000477  max_mem: 9190
+eta: 0:10:25  epoch: 1  step: 1019  rgb_loss: 0.1506  depth_loss: 0.0847  joint_loss: 0.2384  cross_entropy_loss: 0.8124  eikonal_loss: 0.0958  loss: 0.6630  beta: 0.0412  theta: -0.0037  data: 0.0158  batch: 0.6375  lr: 0.000477  max_mem: 9190
+eta: 0:10:24  epoch: 1  step: 1020  rgb_loss: 0.1512  depth_loss: 0.0845  joint_loss: 0.2317  cross_entropy_loss: 0.8144  eikonal_loss: 0.0946  loss: 0.6639  beta: 0.0412  theta: -0.0038  data: 0.0158  batch: 0.6375  lr: 0.000477  max_mem: 9190
+eta: 0:10:23  epoch: 1  step: 1021  rgb_loss: 0.1523  depth_loss: 0.0828  joint_loss: 0.2276  cross_entropy_loss: 0.8151  eikonal_loss: 0.0896  loss: 0.6629  beta: 0.0412  theta: -0.0042  data: 0.0157  batch: 0.6345  lr: 0.000477  max_mem: 9190
+eta: 0:10:23  epoch: 1  step: 1022  rgb_loss: 0.1489  depth_loss: 0.0826  joint_loss: 0.2226  cross_entropy_loss: 0.8192  eikonal_loss: 0.0913  loss: 0.6614  beta: 0.0412  theta: -0.0045  data: 0.0157  batch: 0.6342  lr: 0.000477  max_mem: 9190
+eta: 0:10:22  epoch: 1  step: 1023  rgb_loss: 0.1519  depth_loss: 0.0862  joint_loss: 0.2348  cross_entropy_loss: 0.8110  eikonal_loss: 0.0885  loss: 0.6642  beta: 0.0412  theta: -0.0048  data: 0.0157  batch: 0.6345  lr: 0.000477  max_mem: 9190
+eta: 0:10:21  epoch: 1  step: 1024  rgb_loss: 0.1559  depth_loss: 0.0865  joint_loss: 0.2265  cross_entropy_loss: 0.8108  eikonal_loss: 0.0834  loss: 0.6674  beta: 0.0412  theta: -0.0052  data: 0.0157  batch: 0.6345  lr: 0.000477  max_mem: 9190
+eta: 0:10:21  epoch: 1  step: 1025  rgb_loss: 0.1550  depth_loss: 0.0862  joint_loss: 0.2224  cross_entropy_loss: 0.8169  eikonal_loss: 0.0838  loss: 0.6691  beta: 0.0412  theta: -0.0055  data: 0.0156  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:10:20  epoch: 1  step: 1026  rgb_loss: 0.1567  depth_loss: 0.0868  joint_loss: 0.2296  cross_entropy_loss: 0.8184  eikonal_loss: 0.0872  loss: 0.6729  beta: 0.0412  theta: -0.0058  data: 0.0157  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:10:19  epoch: 1  step: 1027  rgb_loss: 0.1537  depth_loss: 0.0824  joint_loss: 0.2259  cross_entropy_loss: 0.8109  eikonal_loss: 0.0952  loss: 0.6623  beta: 0.0412  theta: -0.0062  data: 0.0157  batch: 0.6348  lr: 0.000477  max_mem: 9190
+eta: 0:10:18  epoch: 1  step: 1028  rgb_loss: 0.1522  depth_loss: 0.0796  joint_loss: 0.2134  cross_entropy_loss: 0.8175  eikonal_loss: 0.0941  loss: 0.6606  beta: 0.0411  theta: -0.0065  data: 0.0157  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:10:18  epoch: 1  step: 1029  rgb_loss: 0.1561  depth_loss: 0.0795  joint_loss: 0.2218  cross_entropy_loss: 0.8214  eikonal_loss: 0.0957  loss: 0.6670  beta: 0.0411  theta: -0.0069  data: 0.0156  batch: 0.6351  lr: 0.000477  max_mem: 9190
+eta: 0:10:17  epoch: 1  step: 1030  rgb_loss: 0.1536  depth_loss: 0.0777  joint_loss: 0.2215  cross_entropy_loss: 0.8095  eikonal_loss: 0.0975  loss: 0.6569  beta: 0.0411  theta: -0.0072  data: 0.0157  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:10:17  epoch: 1  step: 1031  rgb_loss: 0.1551  depth_loss: 0.0765  joint_loss: 0.2299  cross_entropy_loss: 0.8038  eikonal_loss: 0.1017  loss: 0.6551  beta: 0.0411  theta: -0.0076  data: 0.0157  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:10:16  epoch: 1  step: 1032  rgb_loss: 0.1543  depth_loss: 0.0765  joint_loss: 0.2365  cross_entropy_loss: 0.8002  eikonal_loss: 0.1006  loss: 0.6528  beta: 0.0411  theta: -0.0079  data: 0.0157  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:10:15  epoch: 1  step: 1033  rgb_loss: 0.1560  depth_loss: 0.0767  joint_loss: 0.2332  cross_entropy_loss: 0.7918  eikonal_loss: 0.1054  loss: 0.6508  beta: 0.0411  theta: -0.0083  data: 0.0157  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:10:14  epoch: 1  step: 1034  rgb_loss: 0.1539  depth_loss: 0.0759  joint_loss: 0.2461  cross_entropy_loss: 0.7886  eikonal_loss: 0.1027  loss: 0.6466  beta: 0.0411  theta: -0.0086  data: 0.0157  batch: 0.6351  lr: 0.000477  max_mem: 9190
+eta: 0:10:14  epoch: 1  step: 1035  rgb_loss: 0.1544  depth_loss: 0.0773  joint_loss: 0.2658  cross_entropy_loss: 0.7776  eikonal_loss: 0.1015  loss: 0.6440  beta: 0.0410  theta: -0.0090  data: 0.0157  batch: 0.6351  lr: 0.000477  max_mem: 9190
+eta: 0:10:13  epoch: 1  step: 1036  rgb_loss: 0.1538  depth_loss: 0.0768  joint_loss: 0.2796  cross_entropy_loss: 0.7760  eikonal_loss: 0.1026  loss: 0.6428  beta: 0.0410  theta: -0.0093  data: 0.0156  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:10:12  epoch: 1  step: 1037  rgb_loss: 0.1570  depth_loss: 0.0773  joint_loss: 0.2804  cross_entropy_loss: 0.7731  eikonal_loss: 0.1015  loss: 0.6450  beta: 0.0410  theta: -0.0097  data: 0.0157  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:10:11  epoch: 1  step: 1038  rgb_loss: 0.1503  depth_loss: 0.0782  joint_loss: 0.2810  cross_entropy_loss: 0.7793  eikonal_loss: 0.1011  loss: 0.6424  beta: 0.0410  theta: -0.0101  data: 0.0156  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:10:11  epoch: 1  step: 1039  rgb_loss: 0.1455  depth_loss: 0.0780  joint_loss: 0.2876  cross_entropy_loss: 0.7723  eikonal_loss: 0.1027  loss: 0.6343  beta: 0.0410  theta: -0.0105  data: 0.0156  batch: 0.6345  lr: 0.000477  max_mem: 9190
+eta: 0:10:10  epoch: 1  step: 1040  rgb_loss: 0.1430  depth_loss: 0.0787  joint_loss: 0.2941  cross_entropy_loss: 0.7702  eikonal_loss: 0.1019  loss: 0.6316  beta: 0.0410  theta: -0.0108  data: 0.0156  batch: 0.6342  lr: 0.000477  max_mem: 9190
+eta: 0:10:09  epoch: 1  step: 1041  rgb_loss: 0.1446  depth_loss: 0.0819  joint_loss: 0.2916  cross_entropy_loss: 0.7613  eikonal_loss: 0.0996  loss: 0.6317  beta: 0.0409  theta: -0.0112  data: 0.0157  batch: 0.6342  lr: 0.000477  max_mem: 9190
+eta: 0:10:09  epoch: 1  step: 1042  rgb_loss: 0.1501  depth_loss: 0.0818  joint_loss: 0.3006  cross_entropy_loss: 0.7556  eikonal_loss: 0.0956  loss: 0.6343  beta: 0.0409  theta: -0.0116  data: 0.0157  batch: 0.6341  lr: 0.000477  max_mem: 9190
+eta: 0:10:08  epoch: 1  step: 1043  rgb_loss: 0.1470  depth_loss: 0.0799  joint_loss: 0.2891  cross_entropy_loss: 0.7649  eikonal_loss: 0.0930  loss: 0.6331  beta: 0.0409  theta: -0.0119  data: 0.0157  batch: 0.6338  lr: 0.000477  max_mem: 9190
+eta: 0:10:07  epoch: 1  step: 1044  rgb_loss: 0.1430  depth_loss: 0.0816  joint_loss: 0.2879  cross_entropy_loss: 0.7670  eikonal_loss: 0.0893  loss: 0.6313  beta: 0.0409  theta: -0.0123  data: 0.0158  batch: 0.6338  lr: 0.000477  max_mem: 9190
+eta: 0:10:06  epoch: 1  step: 1045  rgb_loss: 0.1453  depth_loss: 0.0792  joint_loss: 0.2990  cross_entropy_loss: 0.7679  eikonal_loss: 0.0901  loss: 0.6324  beta: 0.0409  theta: -0.0127  data: 0.0158  batch: 0.6336  lr: 0.000477  max_mem: 9190
+eta: 0:10:06  epoch: 1  step: 1046  rgb_loss: 0.1436  depth_loss: 0.0803  joint_loss: 0.2874  cross_entropy_loss: 0.7705  eikonal_loss: 0.0838  loss: 0.6318  beta: 0.0409  theta: -0.0130  data: 0.0158  batch: 0.6335  lr: 0.000477  max_mem: 9190
+eta: 0:10:05  epoch: 1  step: 1047  rgb_loss: 0.1452  depth_loss: 0.0836  joint_loss: 0.2813  cross_entropy_loss: 0.7803  eikonal_loss: 0.0736  loss: 0.6404  beta: 0.0408  theta: -0.0134  data: 0.0158  batch: 0.6333  lr: 0.000477  max_mem: 9190
+eta: 0:10:04  epoch: 1  step: 1048  rgb_loss: 0.1485  depth_loss: 0.0818  joint_loss: 0.2863  cross_entropy_loss: 0.7865  eikonal_loss: 0.0736  loss: 0.6452  beta: 0.0408  theta: -0.0137  data: 0.0158  batch: 0.6332  lr: 0.000477  max_mem: 9190
+eta: 0:10:04  epoch: 1  step: 1049  rgb_loss: 0.1461  depth_loss: 0.0832  joint_loss: 0.2799  cross_entropy_loss: 0.7828  eikonal_loss: 0.0674  loss: 0.6414  beta: 0.0408  theta: -0.0141  data: 0.0158  batch: 0.6328  lr: 0.000477  max_mem: 9190
+eta: 0:10:03  epoch: 1  step: 1050  rgb_loss: 0.1467  depth_loss: 0.0845  joint_loss: 0.2693  cross_entropy_loss: 0.7938  eikonal_loss: 0.0649  loss: 0.6481  beta: 0.0408  theta: -0.0144  data: 0.0157  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:10:02  epoch: 1  step: 1051  rgb_loss: 0.1461  depth_loss: 0.0854  joint_loss: 0.2647  cross_entropy_loss: 0.8104  eikonal_loss: 0.0594  loss: 0.6558  beta: 0.0408  theta: -0.0147  data: 0.0156  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:10:01  epoch: 1  step: 1052  rgb_loss: 0.1473  depth_loss: 0.0857  joint_loss: 0.2561  cross_entropy_loss: 0.8132  eikonal_loss: 0.0572  loss: 0.6581  beta: 0.0408  theta: -0.0150  data: 0.0156  batch: 0.6322  lr: 0.000477  max_mem: 9190
+eta: 0:10:01  epoch: 1  step: 1053  rgb_loss: 0.1470  depth_loss: 0.0862  joint_loss: 0.2449  cross_entropy_loss: 0.8236  eikonal_loss: 0.0506  loss: 0.6623  beta: 0.0408  theta: -0.0153  data: 0.0156  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:10:00  epoch: 1  step: 1054  rgb_loss: 0.1465  depth_loss: 0.0847  joint_loss: 0.2283  cross_entropy_loss: 0.8273  eikonal_loss: 0.0508  loss: 0.6614  beta: 0.0407  theta: -0.0155  data: 0.0157  batch: 0.6321  lr: 0.000477  max_mem: 9190
+eta: 0:09:59  epoch: 1  step: 1055  rgb_loss: 0.1453  depth_loss: 0.0829  joint_loss: 0.2084  cross_entropy_loss: 0.8379  eikonal_loss: 0.0497  loss: 0.6626  beta: 0.0407  theta: -0.0158  data: 0.0157  batch: 0.6322  lr: 0.000477  max_mem: 9190
+eta: 0:09:59  epoch: 1  step: 1056  rgb_loss: 0.1437  depth_loss: 0.0834  joint_loss: 0.2011  cross_entropy_loss: 0.8391  eikonal_loss: 0.0496  loss: 0.6617  beta: 0.0407  theta: -0.0160  data: 0.0157  batch: 0.6321  lr: 0.000477  max_mem: 9190
+eta: 0:09:58  epoch: 1  step: 1057  rgb_loss: 0.1394  depth_loss: 0.0841  joint_loss: 0.1938  cross_entropy_loss: 0.8404  eikonal_loss: 0.0485  loss: 0.6583  beta: 0.0407  theta: -0.0162  data: 0.0156  batch: 0.6319  lr: 0.000477  max_mem: 9190
+eta: 0:09:57  epoch: 1  step: 1058  rgb_loss: 0.1398  depth_loss: 0.0846  joint_loss: 0.1860  cross_entropy_loss: 0.8369  eikonal_loss: 0.0486  loss: 0.6571  beta: 0.0407  theta: -0.0165  data: 0.0157  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:57  epoch: 1  step: 1059  rgb_loss: 0.1397  depth_loss: 0.0842  joint_loss: 0.1846  cross_entropy_loss: 0.8398  eikonal_loss: 0.0479  loss: 0.6578  beta: 0.0407  theta: -0.0167  data: 0.0156  batch: 0.6319  lr: 0.000477  max_mem: 9190
+eta: 0:09:56  epoch: 1  step: 1060  rgb_loss: 0.1436  depth_loss: 0.0817  joint_loss: 0.1796  cross_entropy_loss: 0.8373  eikonal_loss: 0.0472  loss: 0.6576  beta: 0.0406  theta: -0.0168  data: 0.0156  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:55  epoch: 1  step: 1061  rgb_loss: 0.1396  depth_loss: 0.0804  joint_loss: 0.1803  cross_entropy_loss: 0.8467  eikonal_loss: 0.0471  loss: 0.6571  beta: 0.0406  theta: -0.0170  data: 0.0156  batch: 0.6319  lr: 0.000477  max_mem: 9190
+eta: 0:09:55  epoch: 1  step: 1062  rgb_loss: 0.1396  depth_loss: 0.0773  joint_loss: 0.1691  cross_entropy_loss: 0.8341  eikonal_loss: 0.0471  loss: 0.6471  beta: 0.0406  theta: -0.0172  data: 0.0156  batch: 0.6319  lr: 0.000477  max_mem: 9190
+eta: 0:09:54  epoch: 1  step: 1063  rgb_loss: 0.1400  depth_loss: 0.0751  joint_loss: 0.1800  cross_entropy_loss: 0.8340  eikonal_loss: 0.0500  loss: 0.6461  beta: 0.0406  theta: -0.0173  data: 0.0156  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:53  epoch: 1  step: 1064  rgb_loss: 0.1385  depth_loss: 0.0754  joint_loss: 0.1772  cross_entropy_loss: 0.8365  eikonal_loss: 0.0513  loss: 0.6462  beta: 0.0406  theta: -0.0175  data: 0.0155  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:53  epoch: 1  step: 1065  rgb_loss: 0.1375  depth_loss: 0.0756  joint_loss: 0.1691  cross_entropy_loss: 0.8402  eikonal_loss: 0.0492  loss: 0.6465  beta: 0.0405  theta: -0.0176  data: 0.0155  batch: 0.6319  lr: 0.000477  max_mem: 9190
+eta: 0:09:52  epoch: 1  step: 1066  rgb_loss: 0.1377  depth_loss: 0.0759  joint_loss: 0.1652  cross_entropy_loss: 0.8374  eikonal_loss: 0.0506  loss: 0.6456  beta: 0.0405  theta: -0.0177  data: 0.0154  batch: 0.6318  lr: 0.000477  max_mem: 9190
+eta: 0:09:51  epoch: 1  step: 1067  rgb_loss: 0.1409  depth_loss: 0.0741  joint_loss: 0.1726  cross_entropy_loss: 0.8363  eikonal_loss: 0.0511  loss: 0.6469  beta: 0.0405  theta: -0.0179  data: 0.0153  batch: 0.6319  lr: 0.000477  max_mem: 9190
+eta: 0:09:51  epoch: 1  step: 1068  rgb_loss: 0.1383  depth_loss: 0.0751  joint_loss: 0.1784  cross_entropy_loss: 0.8281  eikonal_loss: 0.0530  loss: 0.6417  beta: 0.0405  theta: -0.0180  data: 0.0154  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:50  epoch: 1  step: 1069  rgb_loss: 0.1373  depth_loss: 0.0727  joint_loss: 0.1714  cross_entropy_loss: 0.8291  eikonal_loss: 0.0542  loss: 0.6386  beta: 0.0404  theta: -0.0182  data: 0.0154  batch: 0.6318  lr: 0.000477  max_mem: 9190
+eta: 0:09:49  epoch: 1  step: 1070  rgb_loss: 0.1401  depth_loss: 0.0728  joint_loss: 0.1816  cross_entropy_loss: 0.8297  eikonal_loss: 0.0557  loss: 0.6424  beta: 0.0404  theta: -0.0183  data: 0.0154  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:49  epoch: 1  step: 1071  rgb_loss: 0.1379  depth_loss: 0.0723  joint_loss: 0.1791  cross_entropy_loss: 0.8110  eikonal_loss: 0.0574  loss: 0.6304  beta: 0.0404  theta: -0.0185  data: 0.0154  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:48  epoch: 1  step: 1072  rgb_loss: 0.1371  depth_loss: 0.0728  joint_loss: 0.1912  cross_entropy_loss: 0.8087  eikonal_loss: 0.0586  loss: 0.6297  beta: 0.0403  theta: -0.0186  data: 0.0154  batch: 0.6321  lr: 0.000477  max_mem: 9190
+eta: 0:09:47  epoch: 1  step: 1073  rgb_loss: 0.1385  depth_loss: 0.0699  joint_loss: 0.1998  cross_entropy_loss: 0.8061  eikonal_loss: 0.0602  loss: 0.6274  beta: 0.0403  theta: -0.0188  data: 0.0154  batch: 0.6322  lr: 0.000477  max_mem: 9190
+eta: 0:09:47  epoch: 1  step: 1074  rgb_loss: 0.1407  depth_loss: 0.0702  joint_loss: 0.2048  cross_entropy_loss: 0.8179  eikonal_loss: 0.0598  loss: 0.6361  beta: 0.0403  theta: -0.0190  data: 0.0153  batch: 0.6321  lr: 0.000477  max_mem: 9190
+eta: 0:09:46  epoch: 1  step: 1075  rgb_loss: 0.1409  depth_loss: 0.0713  joint_loss: 0.2115  cross_entropy_loss: 0.8170  eikonal_loss: 0.0622  loss: 0.6374  beta: 0.0402  theta: -0.0191  data: 0.0153  batch: 0.6320  lr: 0.000477  max_mem: 9190
+eta: 0:09:45  epoch: 1  step: 1076  rgb_loss: 0.1399  depth_loss: 0.0743  joint_loss: 0.2088  cross_entropy_loss: 0.8214  eikonal_loss: 0.0643  loss: 0.6418  beta: 0.0402  theta: -0.0193  data: 0.0152  batch: 0.6322  lr: 0.000477  max_mem: 9190
+eta: 0:09:45  epoch: 1  step: 1077  rgb_loss: 0.1396  depth_loss: 0.0726  joint_loss: 0.2159  cross_entropy_loss: 0.8206  eikonal_loss: 0.0658  loss: 0.6399  beta: 0.0402  theta: -0.0195  data: 0.0152  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:44  epoch: 1  step: 1078  rgb_loss: 0.1406  depth_loss: 0.0703  joint_loss: 0.2203  cross_entropy_loss: 0.8196  eikonal_loss: 0.0661  loss: 0.6383  beta: 0.0402  theta: -0.0196  data: 0.0154  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:44  epoch: 1  step: 1079  rgb_loss: 0.1404  depth_loss: 0.0706  joint_loss: 0.2192  cross_entropy_loss: 0.8343  eikonal_loss: 0.0643  loss: 0.6455  beta: 0.0401  theta: -0.0198  data: 0.0154  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:09:43  epoch: 1  step: 1080  rgb_loss: 0.1364  depth_loss: 0.0725  joint_loss: 0.2311  cross_entropy_loss: 0.8367  eikonal_loss: 0.0671  loss: 0.6455  beta: 0.0401  theta: -0.0200  data: 0.0154  batch: 0.6328  lr: 0.000477  max_mem: 9190
+eta: 0:09:42  epoch: 1  step: 1081  rgb_loss: 0.1370  depth_loss: 0.0703  joint_loss: 0.2279  cross_entropy_loss: 0.8275  eikonal_loss: 0.0702  loss: 0.6394  beta: 0.0401  theta: -0.0201  data: 0.0154  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:09:42  epoch: 1  step: 1082  rgb_loss: 0.1313  depth_loss: 0.0725  joint_loss: 0.2338  cross_entropy_loss: 0.8413  eikonal_loss: 0.0711  loss: 0.6433  beta: 0.0400  theta: -0.0203  data: 0.0153  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:09:41  epoch: 1  step: 1083  rgb_loss: 0.1325  depth_loss: 0.0743  joint_loss: 0.2239  cross_entropy_loss: 0.8459  eikonal_loss: 0.0698  loss: 0.6479  beta: 0.0400  theta: -0.0204  data: 0.0154  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:40  epoch: 1  step: 1084  rgb_loss: 0.1366  depth_loss: 0.0726  joint_loss: 0.2156  cross_entropy_loss: 0.8437  eikonal_loss: 0.0744  loss: 0.6493  beta: 0.0400  theta: -0.0206  data: 0.0154  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:40  epoch: 1  step: 1085  rgb_loss: 0.1361  depth_loss: 0.0749  joint_loss: 0.2108  cross_entropy_loss: 0.8391  eikonal_loss: 0.0743  loss: 0.6486  beta: 0.0399  theta: -0.0207  data: 0.0154  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:09:39  epoch: 1  step: 1086  rgb_loss: 0.1355  depth_loss: 0.0738  joint_loss: 0.2125  cross_entropy_loss: 0.8363  eikonal_loss: 0.0748  loss: 0.6456  beta: 0.0399  theta: -0.0208  data: 0.0155  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:09:38  epoch: 1  step: 1087  rgb_loss: 0.1323  depth_loss: 0.0739  joint_loss: 0.2183  cross_entropy_loss: 0.8299  eikonal_loss: 0.0766  loss: 0.6397  beta: 0.0399  theta: -0.0209  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:09:38  epoch: 1  step: 1088  rgb_loss: 0.1304  depth_loss: 0.0749  joint_loss: 0.2176  cross_entropy_loss: 0.8264  eikonal_loss: 0.0796  loss: 0.6372  beta: 0.0398  theta: -0.0210  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:09:37  epoch: 1  step: 1089  rgb_loss: 0.1293  depth_loss: 0.0772  joint_loss: 0.2232  cross_entropy_loss: 0.8173  eikonal_loss: 0.0801  loss: 0.6343  beta: 0.0398  theta: -0.0211  data: 0.0156  batch: 0.6333  lr: 0.000477  max_mem: 9190
+eta: 0:09:36  epoch: 1  step: 1090  rgb_loss: 0.1257  depth_loss: 0.0792  joint_loss: 0.2153  cross_entropy_loss: 0.8183  eikonal_loss: 0.0793  loss: 0.6328  beta: 0.0398  theta: -0.0212  data: 0.0155  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:09:36  epoch: 1  step: 1091  rgb_loss: 0.1279  depth_loss: 0.0798  joint_loss: 0.2177  cross_entropy_loss: 0.8313  eikonal_loss: 0.0785  loss: 0.6421  beta: 0.0397  theta: -0.0213  data: 0.0155  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:09:35  epoch: 1  step: 1092  rgb_loss: 0.1290  depth_loss: 0.0782  joint_loss: 0.2107  cross_entropy_loss: 0.8326  eikonal_loss: 0.0777  loss: 0.6418  beta: 0.0397  theta: -0.0214  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:09:34  epoch: 1  step: 1093  rgb_loss: 0.1311  depth_loss: 0.0792  joint_loss: 0.2086  cross_entropy_loss: 0.8373  eikonal_loss: 0.0770  loss: 0.6471  beta: 0.0397  theta: -0.0215  data: 0.0156  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:09:34  epoch: 1  step: 1094  rgb_loss: 0.1310  depth_loss: 0.0793  joint_loss: 0.2082  cross_entropy_loss: 0.8328  eikonal_loss: 0.0759  loss: 0.6447  beta: 0.0397  theta: -0.0215  data: 0.0157  batch: 0.6332  lr: 0.000477  max_mem: 9190
+eta: 0:09:33  epoch: 1  step: 1095  rgb_loss: 0.1338  depth_loss: 0.0771  joint_loss: 0.2029  cross_entropy_loss: 0.8221  eikonal_loss: 0.0776  loss: 0.6398  beta: 0.0396  theta: -0.0216  data: 0.0156  batch: 0.6332  lr: 0.000477  max_mem: 9190
+eta: 0:09:33  epoch: 1  step: 1096  rgb_loss: 0.1338  depth_loss: 0.0739  joint_loss: 0.1982  cross_entropy_loss: 0.8205  eikonal_loss: 0.0737  loss: 0.6352  beta: 0.0396  theta: -0.0217  data: 0.0157  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:09:32  epoch: 1  step: 1097  rgb_loss: 0.1342  depth_loss: 0.0754  joint_loss: 0.2041  cross_entropy_loss: 0.8214  eikonal_loss: 0.0772  loss: 0.6382  beta: 0.0396  theta: -0.0218  data: 0.0157  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:09:31  epoch: 1  step: 1098  rgb_loss: 0.1339  depth_loss: 0.0754  joint_loss: 0.1965  cross_entropy_loss: 0.8192  eikonal_loss: 0.0772  loss: 0.6365  beta: 0.0395  theta: -0.0218  data: 0.0154  batch: 0.6328  lr: 0.000477  max_mem: 9190
+eta: 0:09:31  epoch: 1  step: 1099  rgb_loss: 0.1364  depth_loss: 0.0771  joint_loss: 0.1994  cross_entropy_loss: 0.8043  eikonal_loss: 0.0797  loss: 0.6335  beta: 0.0395  theta: -0.0219  data: 0.0155  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:30  epoch: 1  step: 1100  rgb_loss: 0.1372  depth_loss: 0.0753  joint_loss: 0.1872  cross_entropy_loss: 0.8034  eikonal_loss: 0.0770  loss: 0.6313  beta: 0.0395  theta: -0.0220  data: 0.0154  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:09:29  epoch: 1  step: 1101  rgb_loss: 0.1374  depth_loss: 0.0781  joint_loss: 0.1912  cross_entropy_loss: 0.8123  eikonal_loss: 0.0743  loss: 0.6386  beta: 0.0394  theta: -0.0220  data: 0.0154  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:29  epoch: 1  step: 1102  rgb_loss: 0.1391  depth_loss: 0.0762  joint_loss: 0.1835  cross_entropy_loss: 0.8024  eikonal_loss: 0.0740  loss: 0.6331  beta: 0.0394  theta: -0.0221  data: 0.0154  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:09:28  epoch: 1  step: 1103  rgb_loss: 0.1373  depth_loss: 0.0753  joint_loss: 0.1940  cross_entropy_loss: 0.7943  eikonal_loss: 0.0742  loss: 0.6269  beta: 0.0394  theta: -0.0222  data: 0.0154  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:27  epoch: 1  step: 1104  rgb_loss: 0.1324  depth_loss: 0.0746  joint_loss: 0.2037  cross_entropy_loss: 0.7828  eikonal_loss: 0.0694  loss: 0.6155  beta: 0.0393  theta: -0.0223  data: 0.0154  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:27  epoch: 1  step: 1105  rgb_loss: 0.1340  depth_loss: 0.0760  joint_loss: 0.2079  cross_entropy_loss: 0.7917  eikonal_loss: 0.0681  loss: 0.6230  beta: 0.0393  theta: -0.0223  data: 0.0153  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:26  epoch: 1  step: 1106  rgb_loss: 0.1379  depth_loss: 0.0739  joint_loss: 0.2132  cross_entropy_loss: 0.7987  eikonal_loss: 0.0676  loss: 0.6285  beta: 0.0392  theta: -0.0224  data: 0.0153  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:09:25  epoch: 1  step: 1107  rgb_loss: 0.1356  depth_loss: 0.0741  joint_loss: 0.2067  cross_entropy_loss: 0.8089  eikonal_loss: 0.0671  loss: 0.6313  beta: 0.0392  theta: -0.0225  data: 0.0153  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:25  epoch: 1  step: 1108  rgb_loss: 0.1375  depth_loss: 0.0771  joint_loss: 0.2024  cross_entropy_loss: 0.8069  eikonal_loss: 0.0643  loss: 0.6346  beta: 0.0392  theta: -0.0225  data: 0.0152  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:24  epoch: 1  step: 1109  rgb_loss: 0.1401  depth_loss: 0.0760  joint_loss: 0.2087  cross_entropy_loss: 0.8052  eikonal_loss: 0.0649  loss: 0.6357  beta: 0.0391  theta: -0.0226  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:23  epoch: 1  step: 1110  rgb_loss: 0.1406  depth_loss: 0.0743  joint_loss: 0.2146  cross_entropy_loss: 0.7970  eikonal_loss: 0.0650  loss: 0.6307  beta: 0.0391  theta: -0.0227  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:23  epoch: 1  step: 1111  rgb_loss: 0.1393  depth_loss: 0.0716  joint_loss: 0.2120  cross_entropy_loss: 0.7816  eikonal_loss: 0.0639  loss: 0.6186  beta: 0.0391  theta: -0.0227  data: 0.0152  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:22  epoch: 1  step: 1112  rgb_loss: 0.1430  depth_loss: 0.0726  joint_loss: 0.2164  cross_entropy_loss: 0.7763  eikonal_loss: 0.0645  loss: 0.6210  beta: 0.0390  theta: -0.0228  data: 0.0152  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:09:22  epoch: 1  step: 1113  rgb_loss: 0.1386  depth_loss: 0.0713  joint_loss: 0.2103  cross_entropy_loss: 0.7732  eikonal_loss: 0.0641  loss: 0.6134  beta: 0.0390  theta: -0.0228  data: 0.0151  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:21  epoch: 1  step: 1114  rgb_loss: 0.1380  depth_loss: 0.0716  joint_loss: 0.2108  cross_entropy_loss: 0.7812  eikonal_loss: 0.0638  loss: 0.6171  beta: 0.0389  theta: -0.0229  data: 0.0151  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:20  epoch: 1  step: 1115  rgb_loss: 0.1355  depth_loss: 0.0747  joint_loss: 0.2198  cross_entropy_loss: 0.7874  eikonal_loss: 0.0609  loss: 0.6210  beta: 0.0389  theta: -0.0229  data: 0.0151  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:20  epoch: 1  step: 1116  rgb_loss: 0.1366  depth_loss: 0.0756  joint_loss: 0.2246  cross_entropy_loss: 0.7939  eikonal_loss: 0.0618  loss: 0.6265  beta: 0.0389  theta: -0.0230  data: 0.0151  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:19  epoch: 1  step: 1117  rgb_loss: 0.1394  depth_loss: 0.0733  joint_loss: 0.2179  cross_entropy_loss: 0.7907  eikonal_loss: 0.0575  loss: 0.6247  beta: 0.0388  theta: -0.0230  data: 0.0151  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:09:18  epoch: 1  step: 1118  rgb_loss: 0.1420  depth_loss: 0.0758  joint_loss: 0.2250  cross_entropy_loss: 0.7844  eikonal_loss: 0.0575  loss: 0.6270  beta: 0.0388  theta: -0.0231  data: 0.0151  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:09:18  epoch: 1  step: 1119  rgb_loss: 0.1421  depth_loss: 0.0781  joint_loss: 0.2196  cross_entropy_loss: 0.7795  eikonal_loss: 0.0571  loss: 0.6266  beta: 0.0387  theta: -0.0231  data: 0.0151  batch: 0.6322  lr: 0.000477  max_mem: 9190
+eta: 0:09:17  epoch: 1  step: 1120  rgb_loss: 0.1423  depth_loss: 0.0805  joint_loss: 0.2282  cross_entropy_loss: 0.7878  eikonal_loss: 0.0566  loss: 0.6337  beta: 0.0387  theta: -0.0232  data: 0.0151  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:16  epoch: 1  step: 1121  rgb_loss: 0.1402  depth_loss: 0.0777  joint_loss: 0.2495  cross_entropy_loss: 0.7731  eikonal_loss: 0.0577  loss: 0.6228  beta: 0.0386  theta: -0.0232  data: 0.0152  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:09:16  epoch: 1  step: 1122  rgb_loss: 0.1426  depth_loss: 0.0784  joint_loss: 0.2571  cross_entropy_loss: 0.7778  eikonal_loss: 0.0576  loss: 0.6285  beta: 0.0386  theta: -0.0233  data: 0.0151  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:15  epoch: 1  step: 1123  rgb_loss: 0.1418  depth_loss: 0.0794  joint_loss: 0.2511  cross_entropy_loss: 0.7702  eikonal_loss: 0.0620  loss: 0.6250  beta: 0.0385  theta: -0.0234  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:14  epoch: 1  step: 1124  rgb_loss: 0.1441  depth_loss: 0.0811  joint_loss: 0.2376  cross_entropy_loss: 0.7724  eikonal_loss: 0.0628  loss: 0.6295  beta: 0.0385  theta: -0.0235  data: 0.0152  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:09:14  epoch: 1  step: 1125  rgb_loss: 0.1419  depth_loss: 0.0792  joint_loss: 0.2326  cross_entropy_loss: 0.7666  eikonal_loss: 0.0683  loss: 0.6229  beta: 0.0384  theta: -0.0236  data: 0.0152  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:09:13  epoch: 1  step: 1126  rgb_loss: 0.1360  depth_loss: 0.0830  joint_loss: 0.2311  cross_entropy_loss: 0.7576  eikonal_loss: 0.0700  loss: 0.6164  beta: 0.0384  theta: -0.0237  data: 0.0152  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:09:13  epoch: 1  step: 1127  rgb_loss: 0.1370  depth_loss: 0.0843  joint_loss: 0.2332  cross_entropy_loss: 0.7493  eikonal_loss: 0.0752  loss: 0.6151  beta: 0.0383  theta: -0.0238  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:12  epoch: 1  step: 1128  rgb_loss: 0.1367  depth_loss: 0.0814  joint_loss: 0.2378  cross_entropy_loss: 0.7563  eikonal_loss: 0.0776  loss: 0.6159  beta: 0.0383  theta: -0.0239  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:11  epoch: 1  step: 1129  rgb_loss: 0.1359  depth_loss: 0.0808  joint_loss: 0.2384  cross_entropy_loss: 0.7654  eikonal_loss: 0.0785  loss: 0.6192  beta: 0.0382  theta: -0.0240  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:11  epoch: 1  step: 1130  rgb_loss: 0.1364  depth_loss: 0.0790  joint_loss: 0.2382  cross_entropy_loss: 0.7743  eikonal_loss: 0.0782  loss: 0.6223  beta: 0.0382  theta: -0.0242  data: 0.0152  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:10  epoch: 1  step: 1131  rgb_loss: 0.1339  depth_loss: 0.0828  joint_loss: 0.2384  cross_entropy_loss: 0.7812  eikonal_loss: 0.0787  loss: 0.6271  beta: 0.0382  theta: -0.0243  data: 0.0151  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:09  epoch: 1  step: 1132  rgb_loss: 0.1287  depth_loss: 0.0854  joint_loss: 0.2371  cross_entropy_loss: 0.7803  eikonal_loss: 0.0817  loss: 0.6242  beta: 0.0381  theta: -0.0244  data: 0.0151  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:09  epoch: 1  step: 1133  rgb_loss: 0.1302  depth_loss: 0.0870  joint_loss: 0.2420  cross_entropy_loss: 0.7753  eikonal_loss: 0.0826  loss: 0.6252  beta: 0.0381  theta: -0.0245  data: 0.0151  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:08  epoch: 1  step: 1134  rgb_loss: 0.1329  depth_loss: 0.0872  joint_loss: 0.2424  cross_entropy_loss: 0.7786  eikonal_loss: 0.0828  loss: 0.6298  beta: 0.0380  theta: -0.0247  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:07  epoch: 1  step: 1135  rgb_loss: 0.1333  depth_loss: 0.0867  joint_loss: 0.2406  cross_entropy_loss: 0.7851  eikonal_loss: 0.0811  loss: 0.6327  beta: 0.0380  theta: -0.0248  data: 0.0152  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:09:07  epoch: 1  step: 1136  rgb_loss: 0.1329  depth_loss: 0.0864  joint_loss: 0.2297  cross_entropy_loss: 0.7786  eikonal_loss: 0.0819  loss: 0.6283  beta: 0.0380  theta: -0.0249  data: 0.0152  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:09:06  epoch: 1  step: 1137  rgb_loss: 0.1315  depth_loss: 0.0874  joint_loss: 0.2396  cross_entropy_loss: 0.7773  eikonal_loss: 0.0864  loss: 0.6282  beta: 0.0379  theta: -0.0251  data: 0.0152  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:09:06  epoch: 1  step: 1138  rgb_loss: 0.1310  depth_loss: 0.0870  joint_loss: 0.2486  cross_entropy_loss: 0.7951  eikonal_loss: 0.0881  loss: 0.6368  beta: 0.0379  theta: -0.0252  data: 0.0152  batch: 0.6344  lr: 0.000477  max_mem: 9190
+eta: 0:09:05  epoch: 1  step: 1139  rgb_loss: 0.1282  depth_loss: 0.0816  joint_loss: 0.2509  cross_entropy_loss: 0.7983  eikonal_loss: 0.0903  loss: 0.6305  beta: 0.0379  theta: -0.0253  data: 0.0152  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:09:04  epoch: 1  step: 1140  rgb_loss: 0.1275  depth_loss: 0.0796  joint_loss: 0.2436  cross_entropy_loss: 0.7870  eikonal_loss: 0.0937  loss: 0.6221  beta: 0.0378  theta: -0.0255  data: 0.0152  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:09:04  epoch: 1  step: 1141  rgb_loss: 0.1338  depth_loss: 0.0798  joint_loss: 0.2167  cross_entropy_loss: 0.7893  eikonal_loss: 0.0996  loss: 0.6290  beta: 0.0378  theta: -0.0256  data: 0.0151  batch: 0.6342  lr: 0.000477  max_mem: 9190
+eta: 0:09:03  epoch: 1  step: 1142  rgb_loss: 0.1310  depth_loss: 0.0835  joint_loss: 0.2278  cross_entropy_loss: 0.7974  eikonal_loss: 0.1076  loss: 0.6354  beta: 0.0378  theta: -0.0257  data: 0.0151  batch: 0.6341  lr: 0.000477  max_mem: 9190
+eta: 0:09:03  epoch: 1  step: 1143  rgb_loss: 0.1368  depth_loss: 0.0820  joint_loss: 0.2353  cross_entropy_loss: 0.8119  eikonal_loss: 0.1017  loss: 0.6466  beta: 0.0378  theta: -0.0258  data: 0.0151  batch: 0.6341  lr: 0.000477  max_mem: 9190
+eta: 0:09:02  epoch: 1  step: 1144  rgb_loss: 0.1338  depth_loss: 0.0818  joint_loss: 0.2518  cross_entropy_loss: 0.8163  eikonal_loss: 0.1018  loss: 0.6465  beta: 0.0378  theta: -0.0259  data: 0.0151  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:09:01  epoch: 1  step: 1145  rgb_loss: 0.1347  depth_loss: 0.0796  joint_loss: 0.2528  cross_entropy_loss: 0.8233  eikonal_loss: 0.0960  loss: 0.6481  beta: 0.0377  theta: -0.0260  data: 0.0151  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:09:01  epoch: 1  step: 1146  rgb_loss: 0.1346  depth_loss: 0.0776  joint_loss: 0.2509  cross_entropy_loss: 0.8165  eikonal_loss: 0.0972  loss: 0.6427  beta: 0.0377  theta: -0.0261  data: 0.0151  batch: 0.6344  lr: 0.000477  max_mem: 9190
+eta: 0:09:00  epoch: 1  step: 1147  rgb_loss: 0.1380  depth_loss: 0.0794  joint_loss: 0.2519  cross_entropy_loss: 0.8256  eikonal_loss: 0.0907  loss: 0.6519  beta: 0.0377  theta: -0.0262  data: 0.0151  batch: 0.6344  lr: 0.000477  max_mem: 9190
+eta: 0:08:59  epoch: 1  step: 1148  rgb_loss: 0.1392  depth_loss: 0.0818  joint_loss: 0.2478  cross_entropy_loss: 0.8373  eikonal_loss: 0.0866  loss: 0.6608  beta: 0.0377  theta: -0.0263  data: 0.0151  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:59  epoch: 1  step: 1149  rgb_loss: 0.1398  depth_loss: 0.0852  joint_loss: 0.2405  cross_entropy_loss: 0.8357  eikonal_loss: 0.0853  loss: 0.6634  beta: 0.0377  theta: -0.0264  data: 0.0151  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:58  epoch: 1  step: 1150  rgb_loss: 0.1425  depth_loss: 0.0860  joint_loss: 0.2474  cross_entropy_loss: 0.8473  eikonal_loss: 0.0851  loss: 0.6730  beta: 0.0377  theta: -0.0265  data: 0.0151  batch: 0.6342  lr: 0.000477  max_mem: 9190
+eta: 0:08:57  epoch: 1  step: 1151  rgb_loss: 0.1436  depth_loss: 0.0852  joint_loss: 0.2453  cross_entropy_loss: 0.8482  eikonal_loss: 0.0908  loss: 0.6743  beta: 0.0377  theta: -0.0265  data: 0.0150  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:57  epoch: 1  step: 1152  rgb_loss: 0.1443  depth_loss: 0.0837  joint_loss: 0.2570  cross_entropy_loss: 0.8504  eikonal_loss: 0.0905  loss: 0.6752  beta: 0.0377  theta: -0.0266  data: 0.0150  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:56  epoch: 1  step: 1153  rgb_loss: 0.1460  depth_loss: 0.0838  joint_loss: 0.2639  cross_entropy_loss: 0.8673  eikonal_loss: 0.0905  loss: 0.6857  beta: 0.0377  theta: -0.0267  data: 0.0151  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:56  epoch: 1  step: 1154  rgb_loss: 0.1420  depth_loss: 0.0848  joint_loss: 0.2654  cross_entropy_loss: 0.8490  eikonal_loss: 0.0929  loss: 0.6738  beta: 0.0377  theta: -0.0267  data: 0.0150  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:55  epoch: 1  step: 1155  rgb_loss: 0.1427  depth_loss: 0.0836  joint_loss: 0.2691  cross_entropy_loss: 0.8409  eikonal_loss: 0.0946  loss: 0.6697  beta: 0.0377  theta: -0.0268  data: 0.0150  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:54  epoch: 1  step: 1156  rgb_loss: 0.1436  depth_loss: 0.0832  joint_loss: 0.2796  cross_entropy_loss: 0.8385  eikonal_loss: 0.0955  loss: 0.6696  beta: 0.0377  theta: -0.0268  data: 0.0150  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:54  epoch: 1  step: 1157  rgb_loss: 0.1431  depth_loss: 0.0842  joint_loss: 0.2731  cross_entropy_loss: 0.8419  eikonal_loss: 0.0922  loss: 0.6711  beta: 0.0377  theta: -0.0269  data: 0.0150  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:08:53  epoch: 1  step: 1158  rgb_loss: 0.1430  depth_loss: 0.0807  joint_loss: 0.2656  cross_entropy_loss: 0.8225  eikonal_loss: 0.0964  loss: 0.6578  beta: 0.0377  theta: -0.0269  data: 0.0150  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:08:52  epoch: 1  step: 1159  rgb_loss: 0.1469  depth_loss: 0.0808  joint_loss: 0.2712  cross_entropy_loss: 0.8442  eikonal_loss: 0.0941  loss: 0.6727  beta: 0.0377  theta: -0.0270  data: 0.0150  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:08:52  epoch: 1  step: 1160  rgb_loss: 0.1490  depth_loss: 0.0823  joint_loss: 0.2773  cross_entropy_loss: 0.8472  eikonal_loss: 0.0926  loss: 0.6781  beta: 0.0377  theta: -0.0270  data: 0.0150  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:08:51  epoch: 1  step: 1161  rgb_loss: 0.1460  depth_loss: 0.0824  joint_loss: 0.2739  cross_entropy_loss: 0.8587  eikonal_loss: 0.0853  loss: 0.6800  beta: 0.0377  theta: -0.0271  data: 0.0150  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:08:50  epoch: 1  step: 1162  rgb_loss: 0.1461  depth_loss: 0.0784  joint_loss: 0.2631  cross_entropy_loss: 0.8492  eikonal_loss: 0.0813  loss: 0.6704  beta: 0.0377  theta: -0.0271  data: 0.0150  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:08:50  epoch: 1  step: 1163  rgb_loss: 0.1464  depth_loss: 0.0791  joint_loss: 0.2555  cross_entropy_loss: 0.8466  eikonal_loss: 0.0821  loss: 0.6698  beta: 0.0377  theta: -0.0272  data: 0.0150  batch: 0.6326  lr: 0.000477  max_mem: 9190
+eta: 0:08:49  epoch: 1  step: 1164  rgb_loss: 0.1470  depth_loss: 0.0774  joint_loss: 0.2469  cross_entropy_loss: 0.8484  eikonal_loss: 0.0869  loss: 0.6697  beta: 0.0377  theta: -0.0273  data: 0.0150  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:08:48  epoch: 1  step: 1165  rgb_loss: 0.1481  depth_loss: 0.0791  joint_loss: 0.2373  cross_entropy_loss: 0.8455  eikonal_loss: 0.0867  loss: 0.6705  beta: 0.0377  theta: -0.0273  data: 0.0150  batch: 0.6325  lr: 0.000477  max_mem: 9190
+eta: 0:08:48  epoch: 1  step: 1166  rgb_loss: 0.1504  depth_loss: 0.0789  joint_loss: 0.2314  cross_entropy_loss: 0.8566  eikonal_loss: 0.0827  loss: 0.6775  beta: 0.0377  theta: -0.0274  data: 0.0150  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:08:47  epoch: 1  step: 1167  rgb_loss: 0.1478  depth_loss: 0.0757  joint_loss: 0.2217  cross_entropy_loss: 0.8524  eikonal_loss: 0.0829  loss: 0.6691  beta: 0.0377  theta: -0.0275  data: 0.0150  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:08:47  epoch: 1  step: 1168  rgb_loss: 0.1444  depth_loss: 0.0750  joint_loss: 0.2227  cross_entropy_loss: 0.8423  eikonal_loss: 0.0835  loss: 0.6601  beta: 0.0377  theta: -0.0275  data: 0.0150  batch: 0.6323  lr: 0.000477  max_mem: 9190
+eta: 0:08:46  epoch: 1  step: 1169  rgb_loss: 0.1430  depth_loss: 0.0716  joint_loss: 0.2289  cross_entropy_loss: 0.8417  eikonal_loss: 0.0858  loss: 0.6554  beta: 0.0377  theta: -0.0276  data: 0.0150  batch: 0.6324  lr: 0.000477  max_mem: 9190
+eta: 0:08:45  epoch: 1  step: 1170  rgb_loss: 0.1401  depth_loss: 0.0708  joint_loss: 0.2197  cross_entropy_loss: 0.8243  eikonal_loss: 0.0856  loss: 0.6426  beta: 0.0376  theta: -0.0277  data: 0.0151  batch: 0.6327  lr: 0.000477  max_mem: 9190
+eta: 0:08:45  epoch: 1  step: 1171  rgb_loss: 0.1403  depth_loss: 0.0702  joint_loss: 0.2175  cross_entropy_loss: 0.8230  eikonal_loss: 0.0803  loss: 0.6409  beta: 0.0376  theta: -0.0277  data: 0.0151  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:08:44  epoch: 1  step: 1172  rgb_loss: 0.1404  depth_loss: 0.0729  joint_loss: 0.1971  cross_entropy_loss: 0.8275  eikonal_loss: 0.0774  loss: 0.6446  beta: 0.0376  theta: -0.0278  data: 0.0151  batch: 0.6329  lr: 0.000477  max_mem: 9190
+eta: 0:08:43  epoch: 1  step: 1173  rgb_loss: 0.1390  depth_loss: 0.0721  joint_loss: 0.1939  cross_entropy_loss: 0.8234  eikonal_loss: 0.0763  loss: 0.6401  beta: 0.0376  theta: -0.0279  data: 0.0152  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:43  epoch: 1  step: 1174  rgb_loss: 0.1416  depth_loss: 0.0706  joint_loss: 0.1928  cross_entropy_loss: 0.8286  eikonal_loss: 0.0744  loss: 0.6436  beta: 0.0376  theta: -0.0279  data: 0.0152  batch: 0.6332  lr: 0.000477  max_mem: 9190
+eta: 0:08:42  epoch: 1  step: 1175  rgb_loss: 0.1456  depth_loss: 0.0703  joint_loss: 0.1828  cross_entropy_loss: 0.8294  eikonal_loss: 0.0750  loss: 0.6472  beta: 0.0376  theta: -0.0280  data: 0.0152  batch: 0.6332  lr: 0.000477  max_mem: 9190
+eta: 0:08:42  epoch: 1  step: 1176  rgb_loss: 0.1443  depth_loss: 0.0722  joint_loss: 0.1830  cross_entropy_loss: 0.8334  eikonal_loss: 0.0734  loss: 0.6496  beta: 0.0375  theta: -0.0281  data: 0.0153  batch: 0.6333  lr: 0.000477  max_mem: 9190
+eta: 0:08:41  epoch: 1  step: 1177  rgb_loss: 0.1431  depth_loss: 0.0722  joint_loss: 0.1789  cross_entropy_loss: 0.8357  eikonal_loss: 0.0716  loss: 0.6493  beta: 0.0375  theta: -0.0282  data: 0.0153  batch: 0.6335  lr: 0.000477  max_mem: 9190
+eta: 0:08:40  epoch: 1  step: 1178  rgb_loss: 0.1426  depth_loss: 0.0778  joint_loss: 0.1809  cross_entropy_loss: 0.8369  eikonal_loss: 0.0681  loss: 0.6546  beta: 0.0375  theta: -0.0282  data: 0.0154  batch: 0.6337  lr: 0.000477  max_mem: 9190
+eta: 0:08:40  epoch: 1  step: 1179  rgb_loss: 0.1428  depth_loss: 0.0776  joint_loss: 0.1783  cross_entropy_loss: 0.8188  eikonal_loss: 0.0687  loss: 0.6456  beta: 0.0375  theta: -0.0283  data: 0.0154  batch: 0.6337  lr: 0.000477  max_mem: 9190
+eta: 0:08:39  epoch: 1  step: 1180  rgb_loss: 0.1441  depth_loss: 0.0772  joint_loss: 0.1751  cross_entropy_loss: 0.8197  eikonal_loss: 0.0683  loss: 0.6466  beta: 0.0375  theta: -0.0284  data: 0.0155  batch: 0.6338  lr: 0.000477  max_mem: 9190
+eta: 0:08:38  epoch: 1  step: 1181  rgb_loss: 0.1428  depth_loss: 0.0780  joint_loss: 0.1814  cross_entropy_loss: 0.8176  eikonal_loss: 0.0713  loss: 0.6458  beta: 0.0374  theta: -0.0285  data: 0.0155  batch: 0.6341  lr: 0.000477  max_mem: 9190
+eta: 0:08:38  epoch: 1  step: 1182  rgb_loss: 0.1436  depth_loss: 0.0773  joint_loss: 0.1835  cross_entropy_loss: 0.8238  eikonal_loss: 0.0694  loss: 0.6490  beta: 0.0374  theta: -0.0286  data: 0.0156  batch: 0.6341  lr: 0.000477  max_mem: 9190
+eta: 0:08:37  epoch: 1  step: 1183  rgb_loss: 0.1369  depth_loss: 0.0758  joint_loss: 0.1855  cross_entropy_loss: 0.8106  eikonal_loss: 0.0711  loss: 0.6344  beta: 0.0374  theta: -0.0286  data: 0.0157  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:37  epoch: 1  step: 1184  rgb_loss: 0.1410  depth_loss: 0.0771  joint_loss: 0.1876  cross_entropy_loss: 0.8175  eikonal_loss: 0.0646  loss: 0.6427  beta: 0.0374  theta: -0.0287  data: 0.0157  batch: 0.6344  lr: 0.000477  max_mem: 9190
+eta: 0:08:36  epoch: 1  step: 1185  rgb_loss: 0.1380  depth_loss: 0.0788  joint_loss: 0.1943  cross_entropy_loss: 0.8128  eikonal_loss: 0.0672  loss: 0.6396  beta: 0.0373  theta: -0.0288  data: 0.0158  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:08:35  epoch: 1  step: 1186  rgb_loss: 0.1351  depth_loss: 0.0795  joint_loss: 0.2011  cross_entropy_loss: 0.8050  eikonal_loss: 0.0695  loss: 0.6342  beta: 0.0373  theta: -0.0289  data: 0.0159  batch: 0.6348  lr: 0.000477  max_mem: 9190
+eta: 0:08:35  epoch: 1  step: 1187  rgb_loss: 0.1402  depth_loss: 0.0805  joint_loss: 0.2035  cross_entropy_loss: 0.8139  eikonal_loss: 0.0699  loss: 0.6449  beta: 0.0373  theta: -0.0290  data: 0.0159  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:08:34  epoch: 1  step: 1188  rgb_loss: 0.1444  depth_loss: 0.0790  joint_loss: 0.1983  cross_entropy_loss: 0.8106  eikonal_loss: 0.0694  loss: 0.6456  beta: 0.0373  theta: -0.0291  data: 0.0159  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:08:33  epoch: 1  step: 1189  rgb_loss: 0.1435  depth_loss: 0.0800  joint_loss: 0.1910  cross_entropy_loss: 0.8086  eikonal_loss: 0.0659  loss: 0.6440  beta: 0.0372  theta: -0.0292  data: 0.0159  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:08:33  epoch: 1  step: 1190  rgb_loss: 0.1448  depth_loss: 0.0803  joint_loss: 0.1878  cross_entropy_loss: 0.8122  eikonal_loss: 0.0660  loss: 0.6472  beta: 0.0372  theta: -0.0293  data: 0.0159  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:08:32  epoch: 1  step: 1191  rgb_loss: 0.1472  depth_loss: 0.0805  joint_loss: 0.1945  cross_entropy_loss: 0.8125  eikonal_loss: 0.0658  loss: 0.6503  beta: 0.0372  theta: -0.0294  data: 0.0160  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:08:31  epoch: 1  step: 1192  rgb_loss: 0.1475  depth_loss: 0.0769  joint_loss: 0.2137  cross_entropy_loss: 0.8155  eikonal_loss: 0.0667  loss: 0.6495  beta: 0.0372  theta: -0.0295  data: 0.0161  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:08:31  epoch: 1  step: 1193  rgb_loss: 0.1450  depth_loss: 0.0759  joint_loss: 0.2167  cross_entropy_loss: 0.8066  eikonal_loss: 0.0677  loss: 0.6419  beta: 0.0371  theta: -0.0297  data: 0.0161  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:08:30  epoch: 1  step: 1194  rgb_loss: 0.1417  depth_loss: 0.0752  joint_loss: 0.2154  cross_entropy_loss: 0.8089  eikonal_loss: 0.0678  loss: 0.6389  beta: 0.0371  theta: -0.0298  data: 0.0161  batch: 0.6351  lr: 0.000477  max_mem: 9190
+eta: 0:08:30  epoch: 1  step: 1195  rgb_loss: 0.1411  depth_loss: 0.0741  joint_loss: 0.2145  cross_entropy_loss: 0.8095  eikonal_loss: 0.0674  loss: 0.6374  beta: 0.0371  theta: -0.0299  data: 0.0161  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:08:29  epoch: 1  step: 1196  rgb_loss: 0.1462  depth_loss: 0.0713  joint_loss: 0.2129  cross_entropy_loss: 0.8124  eikonal_loss: 0.0685  loss: 0.6412  beta: 0.0370  theta: -0.0301  data: 0.0161  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:08:28  epoch: 1  step: 1197  rgb_loss: 0.1487  depth_loss: 0.0688  joint_loss: 0.2322  cross_entropy_loss: 0.8060  eikonal_loss: 0.0708  loss: 0.6391  beta: 0.0370  theta: -0.0302  data: 0.0161  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:08:28  epoch: 1  step: 1198  rgb_loss: 0.1483  depth_loss: 0.0651  joint_loss: 0.2242  cross_entropy_loss: 0.8113  eikonal_loss: 0.0731  loss: 0.6375  beta: 0.0370  theta: -0.0304  data: 0.0161  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:08:27  epoch: 1  step: 1199  rgb_loss: 0.1446  depth_loss: 0.0650  joint_loss: 0.2168  cross_entropy_loss: 0.8089  eikonal_loss: 0.0717  loss: 0.6321  beta: 0.0369  theta: -0.0306  data: 0.0160  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:08:27  epoch: 1  step: 1200  rgb_loss: 0.1394  depth_loss: 0.0655  joint_loss: 0.2122  cross_entropy_loss: 0.8168  eikonal_loss: 0.0709  loss: 0.6310  beta: 0.0369  theta: -0.0308  data: 0.0161  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:08:26  epoch: 1  step: 1201  rgb_loss: 0.1420  depth_loss: 0.0653  joint_loss: 0.2167  cross_entropy_loss: 0.8137  eikonal_loss: 0.0726  loss: 0.6323  beta: 0.0369  theta: -0.0310  data: 0.0162  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:08:25  epoch: 1  step: 1202  rgb_loss: 0.1424  depth_loss: 0.0659  joint_loss: 0.2104  cross_entropy_loss: 0.8112  eikonal_loss: 0.0720  loss: 0.6317  beta: 0.0368  theta: -0.0311  data: 0.0162  batch: 0.6354  lr: 0.000477  max_mem: 9190
+eta: 0:08:25  epoch: 1  step: 1203  rgb_loss: 0.1423  depth_loss: 0.0683  joint_loss: 0.2131  cross_entropy_loss: 0.8137  eikonal_loss: 0.0698  loss: 0.6351  beta: 0.0368  theta: -0.0313  data: 0.0162  batch: 0.6354  lr: 0.000477  max_mem: 9190
+eta: 0:08:24  epoch: 1  step: 1204  rgb_loss: 0.1440  depth_loss: 0.0670  joint_loss: 0.2092  cross_entropy_loss: 0.8015  eikonal_loss: 0.0702  loss: 0.6293  beta: 0.0368  theta: -0.0315  data: 0.0162  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:08:23  epoch: 1  step: 1205  rgb_loss: 0.1462  depth_loss: 0.0686  joint_loss: 0.2122  cross_entropy_loss: 0.7957  eikonal_loss: 0.0685  loss: 0.6301  beta: 0.0367  theta: -0.0317  data: 0.0162  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:08:23  epoch: 1  step: 1206  rgb_loss: 0.1515  depth_loss: 0.0687  joint_loss: 0.2191  cross_entropy_loss: 0.8061  eikonal_loss: 0.0665  loss: 0.6409  beta: 0.0367  theta: -0.0319  data: 0.0161  batch: 0.6354  lr: 0.000477  max_mem: 9190
+eta: 0:08:22  epoch: 1  step: 1207  rgb_loss: 0.1468  depth_loss: 0.0675  joint_loss: 0.2241  cross_entropy_loss: 0.7993  eikonal_loss: 0.0661  loss: 0.6317  beta: 0.0366  theta: -0.0321  data: 0.0160  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:08:21  epoch: 1  step: 1208  rgb_loss: 0.1453  depth_loss: 0.0673  joint_loss: 0.2297  cross_entropy_loss: 0.8168  eikonal_loss: 0.0658  loss: 0.6391  beta: 0.0366  theta: -0.0323  data: 0.0161  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:08:21  epoch: 1  step: 1209  rgb_loss: 0.1456  depth_loss: 0.0683  joint_loss: 0.2266  cross_entropy_loss: 0.8166  eikonal_loss: 0.0657  loss: 0.6401  beta: 0.0365  theta: -0.0325  data: 0.0161  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:08:20  epoch: 1  step: 1210  rgb_loss: 0.1435  depth_loss: 0.0684  joint_loss: 0.2294  cross_entropy_loss: 0.8108  eikonal_loss: 0.0659  loss: 0.6353  beta: 0.0365  theta: -0.0328  data: 0.0161  batch: 0.6356  lr: 0.000477  max_mem: 9190
+eta: 0:08:20  epoch: 1  step: 1211  rgb_loss: 0.1386  depth_loss: 0.0680  joint_loss: 0.2299  cross_entropy_loss: 0.8218  eikonal_loss: 0.0663  loss: 0.6357  beta: 0.0365  theta: -0.0330  data: 0.0161  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:08:19  epoch: 1  step: 1212  rgb_loss: 0.1368  depth_loss: 0.0702  joint_loss: 0.2238  cross_entropy_loss: 0.8135  eikonal_loss: 0.0678  loss: 0.6317  beta: 0.0364  theta: -0.0332  data: 0.0160  batch: 0.6370  lr: 0.000477  max_mem: 9190
+eta: 0:08:24  epoch: 1  step: 1213  rgb_loss: 0.1408  depth_loss: 0.0755  joint_loss: 0.2238  cross_entropy_loss: 0.8155  eikonal_loss: 0.0687  loss: 0.6421  beta: 0.0364  theta: -0.0333  data: 0.0165  batch: 0.7137  lr: 0.000477  max_mem: 9190
+eta: 0:08:24  epoch: 1  step: 1214  rgb_loss: 0.1412  depth_loss: 0.0807  joint_loss: 0.2264  cross_entropy_loss: 0.8192  eikonal_loss: 0.0748  loss: 0.6503  beta: 0.0363  theta: -0.0335  data: 0.0197  batch: 0.7237  lr: 0.000477  max_mem: 9190
+eta: 0:08:25  epoch: 1  step: 1215  rgb_loss: 0.1370  depth_loss: 0.0836  joint_loss: 0.2352  cross_entropy_loss: 0.8278  eikonal_loss: 0.0838  loss: 0.6546  beta: 0.0363  theta: -0.0337  data: 0.0203  batch: 0.7484  lr: 0.000477  max_mem: 9190
+eta: 0:08:26  epoch: 1  step: 1216  rgb_loss: 0.1315  depth_loss: 0.0872  joint_loss: 0.2280  cross_entropy_loss: 0.8267  eikonal_loss: 0.0870  loss: 0.6521  beta: 0.0363  theta: -0.0339  data: 0.0307  batch: 0.7731  lr: 0.000477  max_mem: 9190
+eta: 0:08:26  epoch: 1  step: 1217  rgb_loss: 0.1313  depth_loss: 0.0887  joint_loss: 0.2096  cross_entropy_loss: 0.8262  eikonal_loss: 0.0860  loss: 0.6522  beta: 0.0362  theta: -0.0340  data: 0.0312  batch: 0.7737  lr: 0.000477  max_mem: 9190
+eta: 0:08:25  epoch: 1  step: 1218  rgb_loss: 0.1292  depth_loss: 0.0885  joint_loss: 0.2160  cross_entropy_loss: 0.8316  eikonal_loss: 0.0828  loss: 0.6525  beta: 0.0362  theta: -0.0341  data: 0.0312  batch: 0.7736  lr: 0.000477  max_mem: 9190
+eta: 0:08:24  epoch: 1  step: 1219  rgb_loss: 0.1295  depth_loss: 0.0891  joint_loss: 0.2163  cross_entropy_loss: 0.8286  eikonal_loss: 0.0861  loss: 0.6523  beta: 0.0361  theta: -0.0342  data: 0.0312  batch: 0.7737  lr: 0.000477  max_mem: 9190
+eta: 0:08:24  epoch: 1  step: 1220  rgb_loss: 0.1313  depth_loss: 0.0878  joint_loss: 0.2140  cross_entropy_loss: 0.8222  eikonal_loss: 0.0857  loss: 0.6495  beta: 0.0361  theta: -0.0343  data: 0.0312  batch: 0.7734  lr: 0.000477  max_mem: 9190
+eta: 0:08:23  epoch: 1  step: 1221  rgb_loss: 0.1286  depth_loss: 0.0877  joint_loss: 0.2079  cross_entropy_loss: 0.8254  eikonal_loss: 0.0826  loss: 0.6476  beta: 0.0360  theta: -0.0344  data: 0.0311  batch: 0.7732  lr: 0.000477  max_mem: 9190
+eta: 0:08:22  epoch: 1  step: 1222  rgb_loss: 0.1337  depth_loss: 0.0885  joint_loss: 0.2038  cross_entropy_loss: 0.8222  eikonal_loss: 0.0820  loss: 0.6517  beta: 0.0360  theta: -0.0345  data: 0.0311  batch: 0.7731  lr: 0.000477  max_mem: 9190
+eta: 0:08:22  epoch: 1  step: 1223  rgb_loss: 0.1347  depth_loss: 0.0883  joint_loss: 0.2002  cross_entropy_loss: 0.8307  eikonal_loss: 0.0817  loss: 0.6565  beta: 0.0360  theta: -0.0346  data: 0.0311  batch: 0.7730  lr: 0.000477  max_mem: 9190
+eta: 0:08:21  epoch: 1  step: 1224  rgb_loss: 0.1271  depth_loss: 0.0905  joint_loss: 0.2019  cross_entropy_loss: 0.8467  eikonal_loss: 0.0813  loss: 0.6592  beta: 0.0359  theta: -0.0347  data: 0.0311  batch: 0.7728  lr: 0.000477  max_mem: 9190
+eta: 0:08:20  epoch: 1  step: 1225  rgb_loss: 0.1253  depth_loss: 0.0908  joint_loss: 0.1993  cross_entropy_loss: 0.8641  eikonal_loss: 0.0797  loss: 0.6661  beta: 0.0359  theta: -0.0347  data: 0.0311  batch: 0.7728  lr: 0.000477  max_mem: 9190
+eta: 0:08:20  epoch: 1  step: 1226  rgb_loss: 0.1225  depth_loss: 0.0918  joint_loss: 0.1961  cross_entropy_loss: 0.8588  eikonal_loss: 0.0798  loss: 0.6615  beta: 0.0359  theta: -0.0347  data: 0.0312  batch: 0.7727  lr: 0.000477  max_mem: 9190
+eta: 0:08:19  epoch: 1  step: 1227  rgb_loss: 0.1189  depth_loss: 0.0928  joint_loss: 0.1983  cross_entropy_loss: 0.8457  eikonal_loss: 0.0815  loss: 0.6525  beta: 0.0358  theta: -0.0347  data: 0.0312  batch: 0.7727  lr: 0.000477  max_mem: 9190
+eta: 0:08:18  epoch: 1  step: 1228  rgb_loss: 0.1162  depth_loss: 0.0943  joint_loss: 0.1977  cross_entropy_loss: 0.8200  eikonal_loss: 0.0874  loss: 0.6391  beta: 0.0358  theta: -0.0348  data: 0.0312  batch: 0.7727  lr: 0.000477  max_mem: 9190
+eta: 0:08:18  epoch: 1  step: 1229  rgb_loss: 0.1170  depth_loss: 0.0955  joint_loss: 0.2015  cross_entropy_loss: 0.8193  eikonal_loss: 0.0913  loss: 0.6414  beta: 0.0358  theta: -0.0348  data: 0.0312  batch: 0.7726  lr: 0.000477  max_mem: 9190
+eta: 0:08:17  epoch: 1  step: 1230  rgb_loss: 0.1154  depth_loss: 0.0992  joint_loss: 0.2012  cross_entropy_loss: 0.8310  eikonal_loss: 0.1106  loss: 0.6512  beta: 0.0358  theta: -0.0347  data: 0.0313  batch: 0.7727  lr: 0.000477  max_mem: 9190
+eta: 0:08:16  epoch: 1  step: 1231  rgb_loss: 0.1159  depth_loss: 0.1014  joint_loss: 0.1962  cross_entropy_loss: 0.8233  eikonal_loss: 0.1240  loss: 0.6512  beta: 0.0357  theta: -0.0347  data: 0.0313  batch: 0.7726  lr: 0.000477  max_mem: 9190
+eta: 0:08:15  epoch: 1  step: 1232  rgb_loss: 0.1215  depth_loss: 0.1078  joint_loss: 0.1833  cross_entropy_loss: 0.8275  eikonal_loss: 0.1605  loss: 0.6682  beta: 0.0357  theta: -0.0347  data: 0.0312  batch: 0.7708  lr: 0.000477  max_mem: 9190
+eta: 0:08:15  epoch: 1  step: 1233  rgb_loss: 0.1207  depth_loss: 0.1067  joint_loss: 0.1927  cross_entropy_loss: 0.8197  eikonal_loss: 0.1634  loss: 0.6632  beta: 0.0357  theta: -0.0346  data: 0.0306  batch: 0.6939  lr: 0.000477  max_mem: 9190
+eta: 0:08:14  epoch: 1  step: 1234  rgb_loss: 0.1232  depth_loss: 0.1043  joint_loss: 0.1807  cross_entropy_loss: 0.8165  eikonal_loss: 0.1641  loss: 0.6611  beta: 0.0357  theta: -0.0346  data: 0.0274  batch: 0.6835  lr: 0.000477  max_mem: 9190
+eta: 0:08:13  epoch: 1  step: 1235  rgb_loss: 0.1240  depth_loss: 0.1035  joint_loss: 0.1779  cross_entropy_loss: 0.8109  eikonal_loss: 0.1579  loss: 0.6576  beta: 0.0356  theta: -0.0345  data: 0.0267  batch: 0.6588  lr: 0.000477  max_mem: 9190
+eta: 0:08:13  epoch: 1  step: 1236  rgb_loss: 0.1261  depth_loss: 0.0999  joint_loss: 0.2124  cross_entropy_loss: 0.8029  eikonal_loss: 0.1565  loss: 0.6538  beta: 0.0356  theta: -0.0344  data: 0.0163  batch: 0.6339  lr: 0.000477  max_mem: 9190
+eta: 0:08:12  epoch: 1  step: 1237  rgb_loss: 0.1238  depth_loss: 0.0999  joint_loss: 0.2097  cross_entropy_loss: 0.7982  eikonal_loss: 0.1573  loss: 0.6489  beta: 0.0356  theta: -0.0344  data: 0.0158  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:08:11  epoch: 1  step: 1238  rgb_loss: 0.1258  depth_loss: 0.0999  joint_loss: 0.2083  cross_entropy_loss: 0.7974  eikonal_loss: 0.1580  loss: 0.6506  beta: 0.0356  theta: -0.0343  data: 0.0157  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:08:11  epoch: 1  step: 1239  rgb_loss: 0.1316  depth_loss: 0.0990  joint_loss: 0.2081  cross_entropy_loss: 0.8095  eikonal_loss: 0.1551  loss: 0.6613  beta: 0.0356  theta: -0.0342  data: 0.0157  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:10  epoch: 1  step: 1240  rgb_loss: 0.1292  depth_loss: 0.0996  joint_loss: 0.2198  cross_entropy_loss: 0.7962  eikonal_loss: 0.1638  loss: 0.6542  beta: 0.0356  theta: -0.0341  data: 0.0156  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:09  epoch: 1  step: 1241  rgb_loss: 0.1319  depth_loss: 0.1005  joint_loss: 0.2283  cross_entropy_loss: 0.7971  eikonal_loss: 0.1642  loss: 0.6589  beta: 0.0355  theta: -0.0341  data: 0.0156  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:09  epoch: 1  step: 1242  rgb_loss: 0.1287  depth_loss: 0.1009  joint_loss: 0.2385  cross_entropy_loss: 0.7993  eikonal_loss: 0.1633  loss: 0.6575  beta: 0.0355  theta: -0.0340  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:08  epoch: 1  step: 1243  rgb_loss: 0.1338  depth_loss: 0.1001  joint_loss: 0.2476  cross_entropy_loss: 0.8142  eikonal_loss: 0.1630  loss: 0.6697  beta: 0.0355  theta: -0.0340  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:07  epoch: 1  step: 1244  rgb_loss: 0.1382  depth_loss: 0.0976  joint_loss: 0.2676  cross_entropy_loss: 0.8005  eikonal_loss: 0.1642  loss: 0.6658  beta: 0.0355  theta: -0.0339  data: 0.0155  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:08:07  epoch: 1  step: 1245  rgb_loss: 0.1402  depth_loss: 0.0929  joint_loss: 0.2677  cross_entropy_loss: 0.7937  eikonal_loss: 0.1664  loss: 0.6600  beta: 0.0355  theta: -0.0339  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:06  epoch: 1  step: 1246  rgb_loss: 0.1433  depth_loss: 0.0910  joint_loss: 0.2559  cross_entropy_loss: 0.8014  eikonal_loss: 0.1657  loss: 0.6644  beta: 0.0355  theta: -0.0339  data: 0.0155  batch: 0.6330  lr: 0.000477  max_mem: 9190
+eta: 0:08:05  epoch: 1  step: 1247  rgb_loss: 0.1460  depth_loss: 0.0895  joint_loss: 0.2568  cross_entropy_loss: 0.8078  eikonal_loss: 0.1660  loss: 0.6689  beta: 0.0355  theta: -0.0339  data: 0.0155  batch: 0.6331  lr: 0.000477  max_mem: 9190
+eta: 0:08:05  epoch: 1  step: 1248  rgb_loss: 0.1510  depth_loss: 0.0881  joint_loss: 0.2591  cross_entropy_loss: 0.8255  eikonal_loss: 0.1603  loss: 0.6809  beta: 0.0355  theta: -0.0339  data: 0.0156  batch: 0.6341  lr: 0.000477  max_mem: 9190
+eta: 0:08:04  epoch: 1  step: 1249  rgb_loss: 0.1519  depth_loss: 0.0870  joint_loss: 0.2644  cross_entropy_loss: 0.8281  eikonal_loss: 0.1573  loss: 0.6819  beta: 0.0355  theta: -0.0339  data: 0.0157  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:03  epoch: 1  step: 1250  rgb_loss: 0.1514  depth_loss: 0.0829  joint_loss: 0.2743  cross_entropy_loss: 0.8089  eikonal_loss: 0.1397  loss: 0.6664  beta: 0.0355  theta: -0.0339  data: 0.0157  batch: 0.6342  lr: 0.000477  max_mem: 9190
+eta: 0:08:03  epoch: 1  step: 1251  rgb_loss: 0.1512  depth_loss: 0.0801  joint_loss: 0.2720  cross_entropy_loss: 0.7978  eikonal_loss: 0.1280  loss: 0.6566  beta: 0.0355  theta: -0.0340  data: 0.0157  batch: 0.6343  lr: 0.000477  max_mem: 9190
+eta: 0:08:02  epoch: 1  step: 1252  rgb_loss: 0.1466  depth_loss: 0.0711  joint_loss: 0.2865  cross_entropy_loss: 0.7979  eikonal_loss: 0.0894  loss: 0.6399  beta: 0.0355  theta: -0.0341  data: 0.0158  batch: 0.6345  lr: 0.000477  max_mem: 9190
+eta: 0:08:01  epoch: 1  step: 1253  rgb_loss: 0.1471  depth_loss: 0.0690  joint_loss: 0.2786  cross_entropy_loss: 0.8062  eikonal_loss: 0.0872  loss: 0.6418  beta: 0.0355  theta: -0.0342  data: 0.0158  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:08:01  epoch: 1  step: 1254  rgb_loss: 0.1454  depth_loss: 0.0671  joint_loss: 0.2902  cross_entropy_loss: 0.7992  eikonal_loss: 0.0816  loss: 0.6347  beta: 0.0355  theta: -0.0343  data: 0.0159  batch: 0.6351  lr: 0.000477  max_mem: 9190
+eta: 0:08:00  epoch: 1  step: 1255  rgb_loss: 0.1467  depth_loss: 0.0669  joint_loss: 0.3033  cross_entropy_loss: 0.8040  eikonal_loss: 0.0794  loss: 0.6388  beta: 0.0355  theta: -0.0344  data: 0.0159  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:07:59  epoch: 1  step: 1256  rgb_loss: 0.1431  depth_loss: 0.0689  joint_loss: 0.2772  cross_entropy_loss: 0.8034  eikonal_loss: 0.0775  loss: 0.6353  beta: 0.0355  theta: -0.0346  data: 0.0159  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:07:59  epoch: 1  step: 1257  rgb_loss: 0.1463  depth_loss: 0.0693  joint_loss: 0.2912  cross_entropy_loss: 0.8114  eikonal_loss: 0.0775  loss: 0.6436  beta: 0.0355  theta: -0.0347  data: 0.0160  batch: 0.6357  lr: 0.000477  max_mem: 9190
+eta: 0:07:58  epoch: 1  step: 1258  rgb_loss: 0.1447  depth_loss: 0.0690  joint_loss: 0.2955  cross_entropy_loss: 0.8099  eikonal_loss: 0.0755  loss: 0.6409  beta: 0.0355  theta: -0.0349  data: 0.0160  batch: 0.6357  lr: 0.000477  max_mem: 9190
+eta: 0:07:57  epoch: 1  step: 1259  rgb_loss: 0.1366  depth_loss: 0.0680  joint_loss: 0.3038  cross_entropy_loss: 0.7921  eikonal_loss: 0.0756  loss: 0.6234  beta: 0.0355  theta: -0.0351  data: 0.0160  batch: 0.6378  lr: 0.000477  max_mem: 9190
+eta: 0:07:57  epoch: 1  step: 1260  rgb_loss: 0.1417  depth_loss: 0.0669  joint_loss: 0.2968  cross_entropy_loss: 0.7970  eikonal_loss: 0.0669  loss: 0.6286  beta: 0.0355  theta: -0.0354  data: 0.0168  batch: 0.6394  lr: 0.000477  max_mem: 9190
+eta: 0:07:56  epoch: 1  step: 1261  rgb_loss: 0.1380  depth_loss: 0.0662  joint_loss: 0.2904  cross_entropy_loss: 0.7943  eikonal_loss: 0.0659  loss: 0.6224  beta: 0.0355  theta: -0.0356  data: 0.0168  batch: 0.6394  lr: 0.000477  max_mem: 9190
+eta: 0:07:55  epoch: 1  step: 1262  rgb_loss: 0.1382  depth_loss: 0.0656  joint_loss: 0.2906  cross_entropy_loss: 0.8059  eikonal_loss: 0.0657  loss: 0.6278  beta: 0.0355  theta: -0.0359  data: 0.0168  batch: 0.6396  lr: 0.000477  max_mem: 9190
+eta: 0:07:55  epoch: 1  step: 1263  rgb_loss: 0.1346  depth_loss: 0.0693  joint_loss: 0.2828  cross_entropy_loss: 0.7799  eikonal_loss: 0.0664  loss: 0.6146  beta: 0.0354  theta: -0.0361  data: 0.0168  batch: 0.6396  lr: 0.000477  max_mem: 9190
+eta: 0:07:54  epoch: 1  step: 1264  rgb_loss: 0.1328  depth_loss: 0.0702  joint_loss: 0.2620  cross_entropy_loss: 0.7869  eikonal_loss: 0.0665  loss: 0.6162  beta: 0.0354  theta: -0.0364  data: 0.0168  batch: 0.6396  lr: 0.000477  max_mem: 9190
+eta: 0:07:53  epoch: 1  step: 1265  rgb_loss: 0.1335  depth_loss: 0.0718  joint_loss: 0.2632  cross_entropy_loss: 0.7831  eikonal_loss: 0.0647  loss: 0.6164  beta: 0.0354  theta: -0.0367  data: 0.0168  batch: 0.6396  lr: 0.000477  max_mem: 9190
+eta: 0:07:53  epoch: 1  step: 1266  rgb_loss: 0.1301  depth_loss: 0.0762  joint_loss: 0.2714  cross_entropy_loss: 0.7675  eikonal_loss: 0.0675  loss: 0.6104  beta: 0.0354  theta: -0.0371  data: 0.0168  batch: 0.6397  lr: 0.000477  max_mem: 9190
+eta: 0:07:52  epoch: 1  step: 1267  rgb_loss: 0.1339  depth_loss: 0.0776  joint_loss: 0.2727  cross_entropy_loss: 0.7739  eikonal_loss: 0.0647  loss: 0.6186  beta: 0.0354  theta: -0.0374  data: 0.0169  batch: 0.6397  lr: 0.000477  max_mem: 9190
+eta: 0:07:51  epoch: 1  step: 1268  rgb_loss: 0.1309  depth_loss: 0.0768  joint_loss: 0.2694  cross_entropy_loss: 0.7642  eikonal_loss: 0.0660  loss: 0.6098  beta: 0.0354  theta: -0.0378  data: 0.0167  batch: 0.6387  lr: 0.000477  max_mem: 9190
+eta: 0:07:51  epoch: 1  step: 1269  rgb_loss: 0.1325  depth_loss: 0.0758  joint_loss: 0.2668  cross_entropy_loss: 0.7836  eikonal_loss: 0.0647  loss: 0.6199  beta: 0.0354  theta: -0.0381  data: 0.0166  batch: 0.6384  lr: 0.000477  max_mem: 9190
+eta: 0:07:50  epoch: 1  step: 1270  rgb_loss: 0.1360  depth_loss: 0.0773  joint_loss: 0.2581  cross_entropy_loss: 0.7936  eikonal_loss: 0.0651  loss: 0.6295  beta: 0.0353  theta: -0.0385  data: 0.0166  batch: 0.6385  lr: 0.000477  max_mem: 9190
+eta: 0:07:49  epoch: 1  step: 1271  rgb_loss: 0.1400  depth_loss: 0.0780  joint_loss: 0.2667  cross_entropy_loss: 0.8014  eikonal_loss: 0.0632  loss: 0.6384  beta: 0.0353  theta: -0.0389  data: 0.0166  batch: 0.6385  lr: 0.000477  max_mem: 9190
+eta: 0:07:49  epoch: 1  step: 1272  rgb_loss: 0.1427  depth_loss: 0.0782  joint_loss: 0.2601  cross_entropy_loss: 0.8010  eikonal_loss: 0.0628  loss: 0.6407  beta: 0.0353  theta: -0.0392  data: 0.0166  batch: 0.6385  lr: 0.000477  max_mem: 9190
+eta: 0:07:48  epoch: 1  step: 1273  rgb_loss: 0.1398  depth_loss: 0.0771  joint_loss: 0.2496  cross_entropy_loss: 0.7966  eikonal_loss: 0.0606  loss: 0.6337  beta: 0.0353  theta: -0.0396  data: 0.0165  batch: 0.6382  lr: 0.000477  max_mem: 9190
+eta: 0:07:47  epoch: 1  step: 1274  rgb_loss: 0.1393  depth_loss: 0.0794  joint_loss: 0.2536  cross_entropy_loss: 0.8061  eikonal_loss: 0.0590  loss: 0.6403  beta: 0.0353  theta: -0.0400  data: 0.0166  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:07:47  epoch: 1  step: 1275  rgb_loss: 0.1359  depth_loss: 0.0810  joint_loss: 0.2329  cross_entropy_loss: 0.8047  eikonal_loss: 0.0573  loss: 0.6366  beta: 0.0352  theta: -0.0404  data: 0.0167  batch: 0.6377  lr: 0.000477  max_mem: 9190
+eta: 0:07:46  epoch: 1  step: 1276  rgb_loss: 0.1430  depth_loss: 0.0787  joint_loss: 0.2368  cross_entropy_loss: 0.8076  eikonal_loss: 0.0579  loss: 0.6431  beta: 0.0352  theta: -0.0408  data: 0.0166  batch: 0.6377  lr: 0.000477  max_mem: 9190
+eta: 0:07:45  epoch: 1  step: 1277  rgb_loss: 0.1412  depth_loss: 0.0785  joint_loss: 0.2188  cross_entropy_loss: 0.8186  eikonal_loss: 0.0558  loss: 0.6455  beta: 0.0352  theta: -0.0411  data: 0.0169  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:07:45  epoch: 1  step: 1278  rgb_loss: 0.1405  depth_loss: 0.0785  joint_loss: 0.2126  cross_entropy_loss: 0.8194  eikonal_loss: 0.0558  loss: 0.6449  beta: 0.0351  theta: -0.0415  data: 0.0169  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:44  epoch: 1  step: 1279  rgb_loss: 0.1429  depth_loss: 0.0798  joint_loss: 0.2179  cross_entropy_loss: 0.8314  eikonal_loss: 0.0597  loss: 0.6553  beta: 0.0351  theta: -0.0419  data: 0.0169  batch: 0.6360  lr: 0.000477  max_mem: 9190
+eta: 0:07:43  epoch: 1  step: 1280  rgb_loss: 0.1433  depth_loss: 0.0815  joint_loss: 0.2273  cross_entropy_loss: 0.8481  eikonal_loss: 0.0609  loss: 0.6663  beta: 0.0351  theta: -0.0422  data: 0.0162  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:07:43  epoch: 1  step: 1281  rgb_loss: 0.1478  depth_loss: 0.0822  joint_loss: 0.2310  cross_entropy_loss: 0.8485  eikonal_loss: 0.0610  loss: 0.6719  beta: 0.0350  theta: -0.0426  data: 0.0162  batch: 0.6348  lr: 0.000477  max_mem: 9190
+eta: 0:07:42  epoch: 1  step: 1282  rgb_loss: 0.1465  depth_loss: 0.0837  joint_loss: 0.2343  cross_entropy_loss: 0.8263  eikonal_loss: 0.0638  loss: 0.6615  beta: 0.0350  theta: -0.0430  data: 0.0162  batch: 0.6348  lr: 0.000477  max_mem: 9190
+eta: 0:07:41  epoch: 1  step: 1283  rgb_loss: 0.1458  depth_loss: 0.0789  joint_loss: 0.2291  cross_entropy_loss: 0.8393  eikonal_loss: 0.0652  loss: 0.6623  beta: 0.0350  theta: -0.0433  data: 0.0163  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:07:41  epoch: 1  step: 1284  rgb_loss: 0.1495  depth_loss: 0.0785  joint_loss: 0.2322  cross_entropy_loss: 0.8358  eikonal_loss: 0.0641  loss: 0.6639  beta: 0.0349  theta: -0.0437  data: 0.0163  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:07:40  epoch: 1  step: 1285  rgb_loss: 0.1469  depth_loss: 0.0787  joint_loss: 0.2293  cross_entropy_loss: 0.8405  eikonal_loss: 0.0654  loss: 0.6639  beta: 0.0349  theta: -0.0440  data: 0.0163  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:07:39  epoch: 1  step: 1286  rgb_loss: 0.1465  depth_loss: 0.0736  joint_loss: 0.2250  cross_entropy_loss: 0.8508  eikonal_loss: 0.0634  loss: 0.6631  beta: 0.0349  theta: -0.0444  data: 0.0163  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:07:39  epoch: 1  step: 1287  rgb_loss: 0.1415  depth_loss: 0.0730  joint_loss: 0.2204  cross_entropy_loss: 0.8498  eikonal_loss: 0.0649  loss: 0.6569  beta: 0.0348  theta: -0.0447  data: 0.0161  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:07:38  epoch: 1  step: 1288  rgb_loss: 0.1444  depth_loss: 0.0720  joint_loss: 0.2219  cross_entropy_loss: 0.8474  eikonal_loss: 0.0636  loss: 0.6576  beta: 0.0348  theta: -0.0450  data: 0.0161  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:07:37  epoch: 1  step: 1289  rgb_loss: 0.1396  depth_loss: 0.0742  joint_loss: 0.2212  cross_entropy_loss: 0.8272  eikonal_loss: 0.0650  loss: 0.6450  beta: 0.0348  theta: -0.0453  data: 0.0161  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:07:37  epoch: 1  step: 1290  rgb_loss: 0.1421  depth_loss: 0.0743  joint_loss: 0.2224  cross_entropy_loss: 0.8395  eikonal_loss: 0.0628  loss: 0.6536  beta: 0.0347  theta: -0.0457  data: 0.0160  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:07:36  epoch: 1  step: 1291  rgb_loss: 0.1409  depth_loss: 0.0781  joint_loss: 0.2224  cross_entropy_loss: 0.8343  eikonal_loss: 0.0651  loss: 0.6538  beta: 0.0347  theta: -0.0460  data: 0.0161  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:07:35  epoch: 1  step: 1292  rgb_loss: 0.1411  depth_loss: 0.0783  joint_loss: 0.2205  cross_entropy_loss: 0.8413  eikonal_loss: 0.0650  loss: 0.6575  beta: 0.0346  theta: -0.0463  data: 0.0161  batch: 0.6353  lr: 0.000477  max_mem: 9190
+eta: 0:07:35  epoch: 1  step: 1293  rgb_loss: 0.1418  depth_loss: 0.0785  joint_loss: 0.2209  cross_entropy_loss: 0.8415  eikonal_loss: 0.0660  loss: 0.6587  beta: 0.0346  theta: -0.0466  data: 0.0161  batch: 0.6356  lr: 0.000477  max_mem: 9190
+eta: 0:07:34  epoch: 1  step: 1294  rgb_loss: 0.1455  depth_loss: 0.0751  joint_loss: 0.2122  cross_entropy_loss: 0.8291  eikonal_loss: 0.0674  loss: 0.6525  beta: 0.0346  theta: -0.0469  data: 0.0161  batch: 0.6355  lr: 0.000477  max_mem: 9190
+eta: 0:07:33  epoch: 1  step: 1295  rgb_loss: 0.1497  depth_loss: 0.0735  joint_loss: 0.2191  cross_entropy_loss: 0.8301  eikonal_loss: 0.0671  loss: 0.6559  beta: 0.0345  theta: -0.0472  data: 0.0160  batch: 0.6356  lr: 0.000477  max_mem: 9190
+eta: 0:07:33  epoch: 1  step: 1296  rgb_loss: 0.1441  depth_loss: 0.0742  joint_loss: 0.2076  cross_entropy_loss: 0.8356  eikonal_loss: 0.0662  loss: 0.6531  beta: 0.0345  theta: -0.0475  data: 0.0159  batch: 0.6352  lr: 0.000477  max_mem: 9190
+eta: 0:07:32  epoch: 1  step: 1297  rgb_loss: 0.1455  depth_loss: 0.0749  joint_loss: 0.2151  cross_entropy_loss: 0.8283  eikonal_loss: 0.0675  loss: 0.6520  beta: 0.0344  theta: -0.0478  data: 0.0156  batch: 0.6350  lr: 0.000477  max_mem: 9190
+eta: 0:07:31  epoch: 1  step: 1298  rgb_loss: 0.1449  depth_loss: 0.0746  joint_loss: 0.2157  cross_entropy_loss: 0.8201  eikonal_loss: 0.0758  loss: 0.6479  beta: 0.0344  theta: -0.0480  data: 0.0156  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:07:31  epoch: 1  step: 1299  rgb_loss: 0.1445  depth_loss: 0.0746  joint_loss: 0.2044  cross_entropy_loss: 0.8209  eikonal_loss: 0.0722  loss: 0.6470  beta: 0.0343  theta: -0.0483  data: 0.0157  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:07:30  epoch: 1  step: 1300  rgb_loss: 0.1439  depth_loss: 0.0742  joint_loss: 0.1966  cross_entropy_loss: 0.8093  eikonal_loss: 0.0714  loss: 0.6398  beta: 0.0343  theta: -0.0486  data: 0.0157  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:07:29  epoch: 1  step: 1301  rgb_loss: 0.1440  depth_loss: 0.0737  joint_loss: 0.1946  cross_entropy_loss: 0.8139  eikonal_loss: 0.0715  loss: 0.6415  beta: 0.0343  theta: -0.0488  data: 0.0157  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:07:29  epoch: 1  step: 1302  rgb_loss: 0.1450  depth_loss: 0.0709  joint_loss: 0.1957  cross_entropy_loss: 0.8168  eikonal_loss: 0.0716  loss: 0.6413  beta: 0.0342  theta: -0.0490  data: 0.0156  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:07:28  epoch: 1  step: 1303  rgb_loss: 0.1452  depth_loss: 0.0710  joint_loss: 0.2060  cross_entropy_loss: 0.8167  eikonal_loss: 0.0697  loss: 0.6418  beta: 0.0342  theta: -0.0493  data: 0.0157  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:07:27  epoch: 1  step: 1304  rgb_loss: 0.1407  depth_loss: 0.0731  joint_loss: 0.2030  cross_entropy_loss: 0.8131  eikonal_loss: 0.0748  loss: 0.6380  beta: 0.0341  theta: -0.0495  data: 0.0157  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:07:27  epoch: 1  step: 1305  rgb_loss: 0.1436  depth_loss: 0.0728  joint_loss: 0.2076  cross_entropy_loss: 0.8102  eikonal_loss: 0.0753  loss: 0.6394  beta: 0.0341  theta: -0.0497  data: 0.0156  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:07:26  epoch: 1  step: 1306  rgb_loss: 0.1450  depth_loss: 0.0754  joint_loss: 0.2099  cross_entropy_loss: 0.8110  eikonal_loss: 0.0750  loss: 0.6439  beta: 0.0340  theta: -0.0499  data: 0.0156  batch: 0.6347  lr: 0.000477  max_mem: 9190
+eta: 0:07:25  epoch: 1  step: 1307  rgb_loss: 0.1451  depth_loss: 0.0744  joint_loss: 0.2082  cross_entropy_loss: 0.8083  eikonal_loss: 0.0747  loss: 0.6416  beta: 0.0340  theta: -0.0500  data: 0.0156  batch: 0.6346  lr: 0.000477  max_mem: 9190
+eta: 0:07:25  epoch: 1  step: 1308  rgb_loss: 0.1399  depth_loss: 0.0749  joint_loss: 0.2086  cross_entropy_loss: 0.8038  eikonal_loss: 0.0746  loss: 0.6346  beta: 0.0339  theta: -0.0502  data: 0.0156  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:07:24  epoch: 1  step: 1309  rgb_loss: 0.1436  depth_loss: 0.0733  joint_loss: 0.2003  cross_entropy_loss: 0.8095  eikonal_loss: 0.0735  loss: 0.6391  beta: 0.0339  theta: -0.0504  data: 0.0157  batch: 0.6348  lr: 0.000477  max_mem: 9190
+eta: 0:07:23  epoch: 1  step: 1310  rgb_loss: 0.1406  depth_loss: 0.0727  joint_loss: 0.1993  cross_entropy_loss: 0.7988  eikonal_loss: 0.0747  loss: 0.6302  beta: 0.0338  theta: -0.0505  data: 0.0158  batch: 0.6349  lr: 0.000477  max_mem: 9190
+eta: 0:07:23  epoch: 1  step: 1311  rgb_loss: 0.1400  depth_loss: 0.0719  joint_loss: 0.1947  cross_entropy_loss: 0.7962  eikonal_loss: 0.0741  loss: 0.6271  beta: 0.0337  theta: -0.0506  data: 0.0157  batch: 0.6374  lr: 0.000477  max_mem: 9190
+eta: 0:07:22  epoch: 1  step: 1312  rgb_loss: 0.1424  depth_loss: 0.0700  joint_loss: 0.1937  cross_entropy_loss: 0.7835  eikonal_loss: 0.0740  loss: 0.6213  beta: 0.0337  theta: -0.0508  data: 0.0157  batch: 0.6374  lr: 0.000477  max_mem: 9190
+eta: 0:07:21  epoch: 1  step: 1313  rgb_loss: 0.1440  depth_loss: 0.0678  joint_loss: 0.1949  cross_entropy_loss: 0.7762  eikonal_loss: 0.0723  loss: 0.6169  beta: 0.0336  theta: -0.0509  data: 0.0157  batch: 0.6374  lr: 0.000477  max_mem: 9190
+eta: 0:07:21  epoch: 1  step: 1314  rgb_loss: 0.1391  depth_loss: 0.0688  joint_loss: 0.1953  cross_entropy_loss: 0.7771  eikonal_loss: 0.0716  loss: 0.6134  beta: 0.0336  theta: -0.0510  data: 0.0158  batch: 0.6377  lr: 0.000477  max_mem: 9190
+eta: 0:07:20  epoch: 1  step: 1315  rgb_loss: 0.1346  depth_loss: 0.0695  joint_loss: 0.1967  cross_entropy_loss: 0.7806  eikonal_loss: 0.0712  loss: 0.6114  beta: 0.0335  theta: -0.0512  data: 0.0157  batch: 0.6376  lr: 0.000477  max_mem: 9190
+eta: 0:07:19  epoch: 1  step: 1316  rgb_loss: 0.1368  depth_loss: 0.0706  joint_loss: 0.1968  cross_entropy_loss: 0.7808  eikonal_loss: 0.0709  loss: 0.6148  beta: 0.0335  theta: -0.0513  data: 0.0158  batch: 0.6378  lr: 0.000477  max_mem: 9190
+eta: 0:07:19  epoch: 1  step: 1317  rgb_loss: 0.1374  depth_loss: 0.0701  joint_loss: 0.1994  cross_entropy_loss: 0.7858  eikonal_loss: 0.0712  loss: 0.6174  beta: 0.0334  theta: -0.0514  data: 0.0158  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:07:18  epoch: 1  step: 1318  rgb_loss: 0.1412  depth_loss: 0.0713  joint_loss: 0.1975  cross_entropy_loss: 0.7940  eikonal_loss: 0.0630  loss: 0.6256  beta: 0.0334  theta: -0.0515  data: 0.0158  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:07:18  epoch: 1  step: 1319  rgb_loss: 0.1470  depth_loss: 0.0698  joint_loss: 0.1972  cross_entropy_loss: 0.8039  eikonal_loss: 0.0635  loss: 0.6350  beta: 0.0333  theta: -0.0516  data: 0.0157  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:17  epoch: 1  step: 1320  rgb_loss: 0.1440  depth_loss: 0.0696  joint_loss: 0.1987  cross_entropy_loss: 0.8040  eikonal_loss: 0.0651  loss: 0.6320  beta: 0.0333  theta: -0.0517  data: 0.0157  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:16  epoch: 1  step: 1321  rgb_loss: 0.1469  depth_loss: 0.0679  joint_loss: 0.1979  cross_entropy_loss: 0.7956  eikonal_loss: 0.0666  loss: 0.6291  beta: 0.0332  theta: -0.0518  data: 0.0156  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:07:16  epoch: 1  step: 1322  rgb_loss: 0.1433  depth_loss: 0.0698  joint_loss: 0.1893  cross_entropy_loss: 0.7999  eikonal_loss: 0.0720  loss: 0.6298  beta: 0.0332  theta: -0.0519  data: 0.0156  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:15  epoch: 1  step: 1323  rgb_loss: 0.1483  depth_loss: 0.0695  joint_loss: 0.1809  cross_entropy_loss: 0.8043  eikonal_loss: 0.0738  loss: 0.6364  beta: 0.0331  theta: -0.0519  data: 0.0155  batch: 0.6378  lr: 0.000477  max_mem: 9190
+eta: 0:07:14  epoch: 1  step: 1324  rgb_loss: 0.1501  depth_loss: 0.0723  joint_loss: 0.1831  cross_entropy_loss: 0.8013  eikonal_loss: 0.0708  loss: 0.6393  beta: 0.0331  theta: -0.0520  data: 0.0155  batch: 0.6379  lr: 0.000477  max_mem: 9190
+eta: 0:07:14  epoch: 1  step: 1325  rgb_loss: 0.1500  depth_loss: 0.0718  joint_loss: 0.1789  cross_entropy_loss: 0.8015  eikonal_loss: 0.0707  loss: 0.6385  beta: 0.0330  theta: -0.0521  data: 0.0155  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:13  epoch: 1  step: 1326  rgb_loss: 0.1517  depth_loss: 0.0687  joint_loss: 0.1773  cross_entropy_loss: 0.8123  eikonal_loss: 0.0719  loss: 0.6426  beta: 0.0330  theta: -0.0522  data: 0.0155  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:12  epoch: 1  step: 1327  rgb_loss: 0.1530  depth_loss: 0.0684  joint_loss: 0.1748  cross_entropy_loss: 0.8127  eikonal_loss: 0.0729  loss: 0.6438  beta: 0.0329  theta: -0.0523  data: 0.0156  batch: 0.6382  lr: 0.000477  max_mem: 9190
+eta: 0:07:12  epoch: 1  step: 1328  rgb_loss: 0.1554  depth_loss: 0.0694  joint_loss: 0.1682  cross_entropy_loss: 0.8229  eikonal_loss: 0.0724  loss: 0.6519  beta: 0.0329  theta: -0.0524  data: 0.0156  batch: 0.6380  lr: 0.000477  max_mem: 9190
+eta: 0:07:11  epoch: 1  step: 1329  rgb_loss: 0.1564  depth_loss: 0.0688  joint_loss: 0.1741  cross_entropy_loss: 0.8253  eikonal_loss: 0.0725  loss: 0.6538  beta: 0.0329  theta: -0.0525  data: 0.0156  batch: 0.6382  lr: 0.000477  max_mem: 9190
+eta: 0:07:10  epoch: 1  step: 1330  rgb_loss: 0.1562  depth_loss: 0.0683  joint_loss: 0.1696  cross_entropy_loss: 0.8252  eikonal_loss: 0.0731  loss: 0.6529  beta: 0.0328  theta: -0.0525  data: 0.0156  batch: 0.6389  lr: 0.000477  max_mem: 9190
+eta: 0:07:10  epoch: 1  step: 1331  rgb_loss: 0.1601  depth_loss: 0.0644  joint_loss: 0.1727  cross_entropy_loss: 0.8280  eikonal_loss: 0.0719  loss: 0.6543  beta: 0.0328  theta: -0.0526  data: 0.0163  batch: 0.6392  lr: 0.000477  max_mem: 9190
+eta: 0:07:09  epoch: 1  step: 1332  rgb_loss: 0.1591  depth_loss: 0.0640  joint_loss: 0.1731  cross_entropy_loss: 0.8409  eikonal_loss: 0.0718  loss: 0.6594  beta: 0.0328  theta: -0.0527  data: 0.0164  batch: 0.6437  lr: 0.000477  max_mem: 9190
+eta: 0:07:09  epoch: 1  step: 1333  rgb_loss: 0.1567  depth_loss: 0.0656  joint_loss: 0.1764  cross_entropy_loss: 0.8574  eikonal_loss: 0.0724  loss: 0.6670  beta: 0.0327  theta: -0.0528  data: 0.0197  batch: 0.6606  lr: 0.000477  max_mem: 9190
+eta: 0:07:10  epoch: 1  step: 1334  rgb_loss: 0.1599  depth_loss: 0.0654  joint_loss: 0.1781  cross_entropy_loss: 0.8691  eikonal_loss: 0.0718  loss: 0.6759  beta: 0.0327  theta: -0.0529  data: 0.0256  batch: 0.6850  lr: 0.000477  max_mem: 9190
+eta: 0:07:09  epoch: 1  step: 1335  rgb_loss: 0.1609  depth_loss: 0.0653  joint_loss: 0.1801  cross_entropy_loss: 0.8668  eikonal_loss: 0.0724  loss: 0.6758  beta: 0.0327  theta: -0.0529  data: 0.0257  batch: 0.6968  lr: 0.000477  max_mem: 9190
+eta: 0:07:09  epoch: 1  step: 1336  rgb_loss: 0.1609  depth_loss: 0.0647  joint_loss: 0.1854  cross_entropy_loss: 0.8636  eikonal_loss: 0.0717  loss: 0.6739  beta: 0.0327  theta: -0.0530  data: 0.0276  batch: 0.7004  lr: 0.000477  max_mem: 9190
+Traceback (most recent call last):
+  File "train_net.py", line 139, in <module>
+  File "train_net.py", line 126, in main
+  File "train_net.py", line 59, in train
+    trainer.train(epoch, train_loader, optimizer, recorder)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/trainers/trainer.py", line 90, in train
+    loss.backward()
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/autograd/__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+KeyboardInterrupt

@@ -1,0 +1,27 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "train_net.py", line 129, in <module>
+    main()
+  File "train_net.py", line 125, in main
+    train(cfg, network)
+  File "train_net.py", line 27, in train
+    trainer = make_trainer(cfg, network)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/trainers/make_trainer.py", line 14, in make_trainer
+    return Trainer(network)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/trainers/trainer.py", line 16, in __init__
+    network = network.to(device)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/nn/modules/module.py", line 607, in to
+    return self._apply(convert)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/nn/modules/module.py", line 354, in _apply
+    module._apply(fn)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/nn/modules/module.py", line 354, in _apply
+    module._apply(fn)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/nn/modules/module.py", line 354, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/nn/modules/module.py", line 376, in _apply
+    param_applied = fn(param)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/nn/modules/module.py", line 605, in convert
+    return t.to(device, dtype if t.is_floating_point() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+GPU ID:  2

@@ -1,0 +1,14 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "train_net.py", line 129, in <module>
+    main()
+  File "train_net.py", line 125, in main
+    train(cfg, network)
+  File "train_net.py", line 27, in train
+    trainer = make_trainer(cfg, network)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/trainers/make_trainer.py", line 14, in make_trainer
+    return Trainer(network)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/trainers/trainer.py", line 17, in __init__
+    device = torch.device('cuda:{}'.format(gpu_ids[0,1]))
+TypeError: list indices must be integers or slices, not tuple
+GPU ID:  0, 1

@@ -1,0 +1,21 @@
+GPU ID:  0
+Load model: data/trained_model/manhattan_sdf_renew/scannet_0050/latest.pth
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+
+Loading dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 465/465 [00:04<00:00, 113.62it/s]
+
+Loading dataset:  14%|█████████████████████▋                                                                                                                                     | 65/465 [00:02<00:15, 25.45it/s]
+Traceback (most recent call last):
+  File "train_net.py", line 129, in <module>
+    main()
+  File "train_net.py", line 125, in main
+    train(cfg, network)
+  File "train_net.py", line 52, in train
+    test_loader = make_data_loader(cfg, is_train=False)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/datasets/make_dataset.py", line 95, in make_data_loader
+    dataset = make_dataset(cfg, is_train)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/datasets/make_dataset.py", line 48, in make_dataset
+    dataset = dataset(**args)
+  File "lib/datasets/scannet.py", line 40, in __init__
+    rgb = cv2.imread(f'{self.instance_dir}/images/{imgname[:-4]}.png')  #이미지의 bgr정보 읽어와 rgb로 저장
+KeyboardInterrupt

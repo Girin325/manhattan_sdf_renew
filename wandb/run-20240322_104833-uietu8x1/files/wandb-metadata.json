@@ -1,0 +1,139 @@
+{
+    "os": "Linux-5.4.0-150-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2024-03-22T01:48:34.676076",
+    "startedAt": "2024-03-22T01:48:33.984406",
+    "docker": null,
+    "cuda": "9.0.176",
+    "args": [
+        "--cfg_file",
+        "configs/scannet/0050.yaml",
+        "gpus",
+        "[0]",
+        "exp_name",
+        "scannet_0050"
+    ],
+    "state": "running",
+    "program": "train_net.py",
+    "codePathLocal": "train_net.py",
+    "codePath": "train_net.py",
+    "git": {
+        "remote": "https://github.com/zju3dv/manhattan_sdf",
+        "commit": "c5e1503afdec8a50534d1022fecf9245dc9e99b5"
+    },
+    "email": null,
+    "root": "/home/gskim/3D/manhattan_sdf_renew",
+    "host": "baro3",
+    "username": "gskim",
+    "executable": "/home/gskim/anaconda3/envs/manhattan/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 4362.04875,
+        "min": 800.0,
+        "max": 4800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4620.018,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3576.142,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4615.034,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4603.148,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4695.56,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4645.456,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4694.602,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4604.225,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4615.422,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 2486.568,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4607.828,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4686.159,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4652.985,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4636.267,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3437.818,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 4615.548,
+            "min": 800.0,
+            "max": 4800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 915.8154449462891,
+            "used": 801.7765007019043
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11553341440
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11554717696
+        }
+    ],
+    "memory": {
+        "total": 62.703426361083984
+    }
+}

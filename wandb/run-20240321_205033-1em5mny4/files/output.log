@@ -1,0 +1,166 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Loading dataset:   6%|████████▌                                                                                                                                                 | 26/465 [00:00<00:03, 125.54it/s]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+)]
+[DenseLayer(
+  in_features=39, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=217, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), DenseLayer(
+  in_features=256, out_features=256, bias=True
+  (activation): Softplus(beta=100, threshold=20)
+), Linear(in_features=256, out_features=257, bias=True)]
+GPU ID:  0
+
+Loading dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 465/465 [00:03<00:00, 123.03it/s]
+
+
+Loading dataset: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 465/465 [00:02<00:00, 166.53it/s]
+eta: 0:11:28  epoch: 1  step: 1001  rgb_loss: 0.1314  depth_loss: 0.1089  joint_loss: 0.2076  cross_entropy_loss: 0.8790  eikonal_loss: 0.0705  loss: 0.6972  beta: 0.0413  theta: -0.0005  data: 0.0158  batch: 0.6887  lr: 0.000477  max_mem: 9152
+eta: 0:11:02  epoch: 1  step: 1002  rgb_loss: 0.1242  depth_loss: 0.1007  joint_loss: 0.3054  cross_entropy_loss: 0.8263  eikonal_loss: 0.1380  loss: 0.6671  beta: 0.0413  theta: -0.0007  data: 0.0160  batch: 0.6642  lr: 0.000477  max_mem: 9185
+Traceback (most recent call last):
+  File "train_net.py", line 139, in <module>
+    main()
+  File "train_net.py", line 125, in main
+    train(cfg, network)
+  File "train_net.py", line 59, in train
+    trainer.train(epoch, train_loader, optimizer, recorder)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/trainers/trainer.py", line 90, in train
+    loss.backward()
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/tensor.py", line 185, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/gskim/anaconda3/envs/manhattan/lib/python3.7/site-packages/torch/autograd/__init__.py", line 127, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+KeyboardInterrupt
+eta: 0:10:51  epoch: 1  step: 1003  rgb_loss: 0.1429  depth_loss: 0.0969  joint_loss: 0.2640  cross_entropy_loss: 0.8777  eikonal_loss: 0.1177  loss: 0.7036  beta: 0.0413  theta: -0.0009  data: 0.0159  batch: 0.6538  lr: 0.000477  max_mem: 9186

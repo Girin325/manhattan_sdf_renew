@@ -1,0 +1,15 @@
+
+GPU ID:  0, 1
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "train_net.py", line 129, in <module>
+    main()
+  File "train_net.py", line 125, in main
+    train(cfg, network)
+  File "train_net.py", line 30, in train
+    recorder = make_recorder(cfg)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/recorder.py", line 125, in make_recorder
+    return Recorder(cfg)
+  File "/home/gskim/3D/manhattan_sdf_renew/lib/train/recorder.py", line 42, in __init__
+    if cfg.local_rank > 0:
+TypeError: '>' not supported between instances of 'str' and 'int'

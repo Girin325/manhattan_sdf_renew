@@ -1,0 +1,194 @@
+2024-03-22 13:45:30,238 INFO    StreamThr :31402 [internal.py:wandb_internal():89] W&B internal server running at pid: 31402, started at: 2024-03-22 13:45:30.238574
+2024-03-22 13:45:30,240 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: status
+2024-03-22 13:45:30,241 INFO    WriterThread:31402 [datastore.py:open_for_write():87] open: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/run-juumuzgf.wandb
+2024-03-22 13:45:30,241 DEBUG   SenderThread:31402 [sender.py:send():378] send: header
+2024-03-22 13:45:30,250 DEBUG   SenderThread:31402 [sender.py:send():378] send: run
+2024-03-22 13:45:30,752 INFO    SenderThread:31402 [dir_watcher.py:__init__():211] watching files in: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files
+2024-03-22 13:45:30,752 INFO    SenderThread:31402 [sender.py:_start_run_threads():1102] run started: juumuzgf with start time 1711082730.238459
+2024-03-22 13:45:30,759 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: check_version
+2024-03-22 13:45:30,759 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: check_version
+2024-03-22 13:45:30,819 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: run_start
+2024-03-22 13:45:30,822 DEBUG   HandlerThread:31402 [system_info.py:__init__():26] System info init
+2024-03-22 13:45:30,822 DEBUG   HandlerThread:31402 [system_info.py:__init__():41] System info init done
+2024-03-22 13:45:30,822 INFO    HandlerThread:31402 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 13:45:30,822 INFO    SystemMonitor:31402 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 13:45:30,822 INFO    HandlerThread:31402 [system_monitor.py:probe():214] Collecting system info
+2024-03-22 13:45:30,823 INFO    SystemMonitor:31402 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 13:45:30,823 INFO    SystemMonitor:31402 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 13:45:30,824 INFO    SystemMonitor:31402 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 13:45:30,824 INFO    SystemMonitor:31402 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 13:45:30,824 INFO    SystemMonitor:31402 [interfaces.py:start():190] Started network monitoring
+2024-03-22 13:45:30,848 DEBUG   HandlerThread:31402 [system_info.py:probe():150] Probing system
+2024-03-22 13:45:30,848 DEBUG   HandlerThread:31402 [system_info.py:_probe_git():135] Probing git
+2024-03-22 13:45:30,854 DEBUG   HandlerThread:31402 [system_info.py:_probe_git():143] Probing git done
+2024-03-22 13:45:30,855 DEBUG   HandlerThread:31402 [system_info.py:probe():198] Probing system done
+2024-03-22 13:45:30,855 DEBUG   HandlerThread:31402 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-150-generic-x86_64-with-debian-buster-sid', 'python': '3.7.10', 'heartbeatAt': '2024-03-22T04:45:30.848181', 'startedAt': '2024-03-22T04:45:30.234254', 'docker': None, 'cuda': '9.0.176', 'args': ('--cfg_file', 'configs/scannet/0050.yaml', 'gpus', '[0,1]', 'exp_name', 'scannet_0050'), 'state': 'running', 'program': 'train_net.py', 'codePathLocal': 'train_net.py', 'codePath': 'train_net.py', 'git': {'remote': 'https://github.com/zju3dv/manhattan_sdf', 'commit': 'c5e1503afdec8a50534d1022fecf9245dc9e99b5'}, 'email': None, 'root': '/home/gskim/3D/manhattan_sdf_renew', 'host': 'baro3', 'username': 'gskim', 'executable': '/home/gskim/anaconda3/envs/manhattan/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 4635.879812500001, 'min': 800.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 4613.982, 'min': 800.0, 'max': 4800.0}, {'current': 4629.288, 'min': 800.0, 'max': 4800.0}, {'current': 4619.412, 'min': 800.0, 'max': 4800.0}, {'current': 4661.682, 'min': 800.0, 'max': 4800.0}, {'current': 4600.839, 'min': 800.0, 'max': 4800.0}, {'current': 4664.447, 'min': 800.0, 'max': 4800.0}, {'current': 4651.095, 'min': 800.0, 'max': 4800.0}, {'current': 4604.98, 'min': 800.0, 'max': 4800.0}, {'current': 4601.892, 'min': 800.0, 'max': 4800.0}, {'current': 4644.462, 'min': 800.0, 'max': 4800.0}, {'current': 4621.105, 'min': 800.0, 'max': 4800.0}, {'current': 4611.9, 'min': 800.0, 'max': 4800.0}, {'current': 4660.445, 'min': 800.0, 'max': 4800.0}, {'current': 4695.184, 'min': 800.0, 'max': 4800.0}, {'current': 4604.87, 'min': 800.0, 'max': 4800.0}, {'current': 4688.494, 'min': 800.0, 'max': 4800.0}], 'disk': {'/': {'total': 915.8154449462891, 'used': 801.8461151123047}}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11553341440}, {'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11554717696}], 'memory': {'total': 62.703426361083984}}
+2024-03-22 13:45:30,855 INFO    HandlerThread:31402 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-22 13:45:30,855 INFO    HandlerThread:31402 [system_monitor.py:probe():227] Publishing system info
+2024-03-22 13:45:30,855 DEBUG   HandlerThread:31402 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-22 13:45:31,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/conda-environment.yaml
+2024-03-22 13:45:32,203 DEBUG   HandlerThread:31402 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-22 13:45:32,204 INFO    HandlerThread:31402 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-22 13:45:32,207 DEBUG   SenderThread:31402 [sender.py:send():378] send: files
+2024-03-22 13:45:32,207 INFO    SenderThread:31402 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-22 13:45:32,279 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-22 13:45:32,279 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: python_packages
+2024-03-22 13:45:32,279 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 13:45:32,280 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: stop_status
+2024-03-22 13:45:32,281 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 13:45:32,575 DEBUG   SenderThread:31402 [sender.py:send():378] send: telemetry
+2024-03-22 13:45:32,575 DEBUG   SenderThread:31402 [sender.py:send():378] send: telemetry
+2024-03-22 13:45:32,575 DEBUG   SenderThread:31402 [sender.py:send():378] send: run
+2024-03-22 13:45:32,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/config.yaml
+2024-03-22 13:45:32,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/conda-environment.yaml
+2024-03-22 13:45:32,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/wandb-metadata.json
+2024-03-22 13:45:32,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/requirements.txt
+2024-03-22 13:45:32,807 INFO    SenderThread:31402 [sender.py:send_run():973] updated run: juumuzgf
+2024-03-22 13:45:32,807 DEBUG   SenderThread:31402 [sender.py:send():378] send: telemetry
+2024-03-22 13:45:32,809 DEBUG   SenderThread:31402 [sender.py:send():378] send: exit
+2024-03-22 13:45:32,809 INFO    SenderThread:31402 [sender.py:send_exit():585] handling exit code: 1
+2024-03-22 13:45:32,809 INFO    SenderThread:31402 [sender.py:send_exit():587] handling runtime: 1
+2024-03-22 13:45:32,811 INFO    SenderThread:31402 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 13:45:32,811 INFO    SenderThread:31402 [sender.py:send_exit():593] send defer
+2024-03-22 13:45:32,811 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,811 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-22 13:45:32,812 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,812 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-22 13:45:32,812 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 1
+2024-03-22 13:45:32,812 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,812 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-22 13:45:32,812 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,812 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-22 13:45:32,812 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 2
+2024-03-22 13:45:32,813 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,813 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-22 13:45:32,813 INFO    HandlerThread:31402 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-22 13:45:32,813 DEBUG   SystemMonitor:31402 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 13:45:32,813 DEBUG   SystemMonitor:31402 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 13:45:32,813 DEBUG   SystemMonitor:31402 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 13:45:32,813 INFO    HandlerThread:31402 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-22 13:45:32,813 INFO    HandlerThread:31402 [interfaces.py:finish():202] Joined disk monitor
+2024-03-22 13:45:32,892 INFO    HandlerThread:31402 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-22 13:45:32,892 INFO    HandlerThread:31402 [interfaces.py:finish():202] Joined memory monitor
+2024-03-22 13:45:32,892 INFO    HandlerThread:31402 [interfaces.py:finish():202] Joined network monitor
+2024-03-22 13:45:32,892 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,893 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-22 13:45:32,893 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 3
+2024-03-22 13:45:32,893 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,893 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-22 13:45:32,893 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,893 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-22 13:45:32,893 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 4
+2024-03-22 13:45:32,893 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,893 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-22 13:45:32,893 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,893 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-22 13:45:32,893 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 5
+2024-03-22 13:45:32,893 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,893 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-22 13:45:32,894 DEBUG   SenderThread:31402 [sender.py:send():378] send: summary
+2024-03-22 13:45:32,894 INFO    SenderThread:31402 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-22 13:45:32,894 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,894 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-22 13:45:32,894 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 6
+2024-03-22 13:45:32,894 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:32,894 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-22 13:45:32,894 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:32,894 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-22 13:45:32,897 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 13:45:32,915 INFO    wandb-upload_0:31402 [upload_job.py:push():131] Uploaded file /tmp/tmpsta_uptowandb/wgjcg1cq-wandb-metadata.json
+2024-03-22 13:45:33,122 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 7
+2024-03-22 13:45:33,123 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:33,123 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-22 13:45:33,123 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:33,123 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-22 13:45:33,473 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 13:45:33,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/config.yaml
+2024-03-22 13:45:33,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/wandb-summary.json
+2024-03-22 13:45:33,753 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/output.log
+2024-03-22 13:45:35,754 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/output.log
+2024-03-22 13:45:36,813 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 8
+2024-03-22 13:45:36,820 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 13:45:36,820 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:36,820 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-22 13:45:36,820 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:36,820 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-22 13:45:36,820 INFO    SenderThread:31402 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-22 13:45:36,821 INFO    SenderThread:31402 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-22 13:45:36,847 INFO    SenderThread:31402 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-22 13:45:36,851 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 9
+2024-03-22 13:45:36,852 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:36,852 DEBUG   SenderThread:31402 [sender.py:send():378] send: artifact
+2024-03-22 13:45:36,852 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-22 13:45:37,474 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 13:45:37,755 INFO    Thread-12 :31402 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/output.log
+2024-03-22 13:45:37,886 INFO    SenderThread:31402 [sender.py:send_artifact():1443] sent artifact job-https___github.com_zju3dv_manhattan_sdf_train_net.py - {'id': 'QXJ0aWZhY3Q6NzY1MzYwNTUx', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTA3MDAzOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzY1Mzc0MDg4', 'versionIndex': 1}}}
+2024-03-22 13:45:37,887 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:37,887 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-22 13:45:37,887 INFO    SenderThread:31402 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-22 13:45:38,755 INFO    SenderThread:31402 [dir_watcher.py:finish():388] scan: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [dir_watcher.py:finish():402] scan save: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/config.yaml config.yaml
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [dir_watcher.py:finish():402] scan save: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/output.log output.log
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [dir_watcher.py:finish():402] scan save: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/conda-environment.yaml conda-environment.yaml
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [dir_watcher.py:finish():402] scan save: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/wandb-summary.json wandb-summary.json
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [dir_watcher.py:finish():402] scan save: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/requirements.txt requirements.txt
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [dir_watcher.py:finish():402] scan save: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/wandb-metadata.json wandb-metadata.json
+2024-03-22 13:45:38,756 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 10
+2024-03-22 13:45:38,756 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 13:45:38,756 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:38,760 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-22 13:45:38,761 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:38,761 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-22 13:45:38,761 INFO    SenderThread:31402 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 13:45:39,256 INFO    wandb-upload_0:31402 [upload_job.py:push():131] Uploaded file /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/config.yaml
+2024-03-22 13:45:39,303 INFO    wandb-upload_1:31402 [upload_job.py:push():131] Uploaded file /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/output.log
+2024-03-22 13:45:39,326 INFO    wandb-upload_3:31402 [upload_job.py:push():131] Uploaded file /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/wandb-summary.json
+2024-03-22 13:45:39,327 INFO    wandb-upload_2:31402 [upload_job.py:push():131] Uploaded file /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/conda-environment.yaml
+2024-03-22 13:45:39,363 INFO    wandb-upload_5:31402 [upload_job.py:push():131] Uploaded file /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/files/requirements.txt
+2024-03-22 13:45:39,477 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 13:45:39,477 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 13:45:39,564 INFO    Thread-11 :31402 [sender.py:transition_state():613] send defer: 11
+2024-03-22 13:45:39,564 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:39,564 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-22 13:45:39,564 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:39,564 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-22 13:45:39,564 INFO    SenderThread:31402 [file_pusher.py:join():178] waiting for file pusher
+2024-03-22 13:45:39,565 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 12
+2024-03-22 13:45:39,565 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:39,565 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-22 13:45:39,565 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:39,565 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-22 13:45:39,565 INFO    SenderThread:31402 [file_stream.py:finish():595] file stream finish called
+2024-03-22 13:45:39,768 INFO    SenderThread:31402 [file_stream.py:finish():599] file stream finish is done
+2024-03-22 13:45:39,768 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 13
+2024-03-22 13:45:39,768 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:39,768 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-22 13:45:39,769 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:39,769 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-22 13:45:39,769 INFO    SenderThread:31402 [sender.py:transition_state():613] send defer: 14
+2024-03-22 13:45:39,769 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 13:45:39,769 INFO    HandlerThread:31402 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-22 13:45:39,769 DEBUG   SenderThread:31402 [sender.py:send():378] send: final
+2024-03-22 13:45:39,769 DEBUG   SenderThread:31402 [sender.py:send():378] send: footer
+2024-03-22 13:45:39,769 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: defer
+2024-03-22 13:45:39,769 INFO    SenderThread:31402 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-22 13:45:39,770 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 13:45:39,770 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 13:45:39,770 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: server_info
+2024-03-22 13:45:39,771 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-22 13:45:39,771 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 13:45:39,771 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-22 13:45:39,771 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: poll_exit
+2024-03-22 13:45:39,771 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 13:45:39,772 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: server_info
+2024-03-22 13:45:39,773 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: job_info
+2024-03-22 13:45:39,972 DEBUG   SenderThread:31402 [sender.py:send_request():405] send_request: job_info
+2024-03-22 13:45:39,974 INFO    MainThread:31402 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-22 13:45:39,974 INFO    MainThread:31402 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-22 13:45:39,974 INFO    MainThread:31402 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-22 13:45:39,976 DEBUG   HandlerThread:31402 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-22 13:45:39,976 INFO    HandlerThread:31402 [handler.py:finish():869] shutting down handler
+2024-03-22 13:45:40,774 INFO    WriterThread:31402 [datastore.py:close():296] close: /home/gskim/3D/manhattan_sdf_renew/wandb/run-20240322_134530-juumuzgf/run-juumuzgf.wandb
+2024-03-22 13:45:40,974 INFO    SenderThread:31402 [sender.py:finish():1521] shutting down sender
+2024-03-22 13:45:40,974 INFO    SenderThread:31402 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 13:45:40,974 INFO    SenderThread:31402 [file_pusher.py:join():178] waiting for file pusher
